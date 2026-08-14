@@ -35,6 +35,8 @@ for path in TEX:
 all_tex = "\n".join(path.read_text(encoding="utf-8") for path in TEX)
 required_labels = {
     "def:point-row",
+    "thm:intro-cubic-conditional",
+    "thm:intro-birational-conditional",
     "thm:simple-wall-point-column",
     "hyp:one-wall-sectorial",
     "cor:simple-wall-rank",
@@ -44,6 +46,12 @@ required_labels = {
     "hyp:rank-zero-target",
     "thm:rank-zero-target",
     "eq:blockwise-boundary-marking",
+    "prop:support-collapse",
+    "hyp:complete-neutral",
+    "prop:gamma-ratio-reduction",
+    "rem:neutral-boundary",
+    "thm:birational-point-primary",
+    "prop:cubic-endpoint",
 }
 found = set(re.findall(r"\\label\{([^}]+)\}", all_tex))
 for label in sorted(required_labels - found):
@@ -58,15 +66,51 @@ if "This implication is \\emph{not} proved here" not in conditional_text:
 scope_text = (ROOT / "sections/08-scope.tex").read_text(encoding="utf-8")
 if "They are not asserted to arise from smooth projective quantum connections" not in scope_text:
     errors.append("analytic countermodel scope boundary missing")
+if "Cai enters only Proposition" not in scope_text:
+    errors.append("Cai endpoint dependency is not visibly isolated")
+if "complete-neutral continuation as an open" not in scope_text:
+    errors.append("global continuation boundary is not visibly conditional")
+
+global_text = (ROOT / "sections/08-global-transport.tex").read_text(encoding="utf-8")
+if "\\begin{hypothesis}[Complete-neutral continuation]" not in global_text:
+    errors.append("complete-neutral continuation is not an explicit hypothesis")
+if "does not prove it in the generality used" not in global_text:
+    errors.append("Aleshkin--Liu nonlinear source boundary is missing")
+if "the proposition does not construct the common realization" not in global_text:
+    errors.append("support-collapse coefficient-field boundary is missing")
+
+main_text = (ROOT / "gamma_point_row.tex").read_text(encoding="utf-8")
+intro_text = (ROOT / "sections/01-introduction.tex").read_text(encoding="utf-8")
+readme_text = (ROOT / "README.md").read_text(encoding="utf-8")
+ledger_text = (ROOT / "claim-proof-novelty-ledger.md").read_text(encoding="utf-8")
+if not re.search(
+    r"Conditional birational\s+invariance therefore yields irrationality",
+    main_text,
+):
+    errors.append("abstract does not make the cubic conclusion conditional")
+if "\\begin{theorem}[Conditional cubic stabilization criterion]" not in intro_text:
+    errors.append("headline cubic theorem is not visibly conditional")
+if "Hypothesis~\\ref{hyp:complete-neutral}" not in intro_text:
+    errors.append("headline theorem does not name the continuation hypothesis")
+if "Under that hypothesis" not in readme_text:
+    errors.append("README cubic conclusion is not visibly conditional")
+if "| conditional application |" not in ledger_text:
+    errors.append("claim ledger does not mark the cubic application conditional")
+
+endpoint_text = (ROOT / "sections/09-cubic-endpoint.tex").read_text(encoding="utf-8")
+if "conditional transport" not in endpoint_text or "does not use Cai" not in endpoint_text:
+    errors.append("transport theorem is not visibly separated from the Cai endpoint")
 
 metadata = json.loads((ROOT / ".zenodo.json").read_text(encoding="utf-8"))
 if metadata.get("title") != (
-    "The Point-Class Rank Functional under Birational Wall Crossing: "
-    "Exact One-Wall Identities toward the X × P² Problem"
+    "Point-Class Rank under Quantum Wall Crossing: "
+    "Local Transport, Global Obstructions, and Cubic Threefolds"
 ):
     errors.append("Zenodo title does not match the manuscript")
 if metadata.get("license") != "cc-by-4.0":
     errors.append("Zenodo license must be cc-by-4.0")
+if "Under this hypothesis" not in metadata.get("description", ""):
+    errors.append("Zenodo description does not make global invariance conditional")
 
 if errors:
     for error in errors:

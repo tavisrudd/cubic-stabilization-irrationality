@@ -15,6 +15,7 @@ check: evidence manuscript warnings
 
 evidence:
 	$(PYTHON) verification/check_release_surface.py
+	$(PYTHON) verification/check_cubic_endpoint.py --check
 
 manuscript: $(SOURCE) sections/*.tex refs.bib
 	$(LATEXMK) $(LATEXMK_FLAGS) $(SOURCE)

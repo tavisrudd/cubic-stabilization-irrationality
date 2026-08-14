@@ -36,14 +36,13 @@
 \newcommand{\rrow}{\mathfrak r}
 \newcommand{\zetaSix}{\zeta_{6}}
 
-\title{The Point-Class Rank Functional under Birational Wall Crossing:\\
-  Exact One-Wall Identities toward the
-  \(X\times\mathbf P^2\) Problem}
+\title{Point-Class Rank under Quantum Wall Crossing:\\
+  Local Transport, Global Obstructions, and Cubic Threefolds}
 \author{Tavis Rudd\thanks{\texttt{tavisrudd@damnsimple.com}}}
 \date{August 2026}
 \hypersetup{
-  pdftitle={The Point-Class Rank Functional under Birational Wall Crossing:
-    Exact One-Wall Identities toward the X times P2 Problem},
+  pdftitle={Point-Class Rank under Quantum Wall Crossing:
+    Local Transport, Global Obstructions, and Cubic Threefolds},
   pdfauthor={Tavis Rudd},
   pdfsubject={Gamma-framed rank under birational quantum wall crossing},
   pdfkeywords={quantum cohomology, birational wall crossing, Gamma class,
@@ -55,34 +54,35 @@
 
 \begin{abstract}
 The Gamma integral structure turns the class of a point into the flat Euler
-covector which reads ordinary rank.  We isolate the behavior of this single
-row under birational quantum wall crossing.  For a smooth projective simple
-VGIT wall with positive discrepancy \(r_+<r_-\), the formal
-quantum-D-module comparison of Gu--Yu--Yu sends the
-common-open point class to the point class in its ambient summand exactly;
-the assertion concerns the full wall parameter, not only its leading term.
-For a projective ordinary flop, the Lee--Lin--Qu--Wang continuation preserves
-the intrinsic point row on each fixed continuation domain.  The proof uses
-support at transverse degree zero and a divisor recursion, and does not
-invoke full descendant invariance.
+covector which reads ordinary rank.  We prove exact transport identities for
+this distinguished row across a simple VGIT wall at extremal specialization
+and across an ordinary flop on a fixed continuation domain.  We then give
+analytic and algebraic countermodels showing that formal monodromy, pairing,
+integrality, and localized Fourier support do not suffice to compose such
+local comparisons.
 
-We then locate the obstruction to composing discrepant wall comparisons.
-An incomplete-Gamma connection gives a rank-two Stokes shear from a
-primitive-sixth formal line into a rank-visible ambient line.  The shear
-persists after imposing a flat integral pairing and a length-three nilpotent
-tag.  Localized Fourier--Laplace transform forgets precisely the constant
-extension responsible for this jump, while a punctual module at a
-two-coordinate Fourier corner can transform back to a full-support module.
-Thus formal monodromy, pairing, integrality, nilpotent tagging, and bare
-boundary support do not determine the point row.  We formulate the remaining
-two-wall problem as a factorwise rank-zero-target condition and prove that
-this condition is sufficient for factorization-level point-row invariance.
-A single signed punctual boundary coefficient is only a candidate shadow of
-that condition: identifying the two requires an additional marked comparison
-theorem.  For a smooth cubic threefold
-\(X\), this is the unresolved assembly step in the point-row approach to the
-\(m=2\) stabilization problem for \(X\times\mathbf P^2\); no irrationality
-statement for that product is asserted here.
+For a global birational comparison, a common-open orbit cylinder in a
+W{\l}odarczyk cobordism gives one endpoint point row, and rotation
+localization kills every intermediate fixed stratum.  We reduce each
+remaining neutral fixed-graph coefficient to a balanced Gamma-ratio kernel.
+The further assertion that the complete nonlinear graph sum has one
+Mellin--Barnes continuation is isolated as an explicit hypothesis; it is not
+claimed to follow from the available linear GLSM contour theorem.  Under
+this hypothesis, Rees homogenization and a finite common quotient make
+nonvanishing of the point row on a formal-monodromy primary packet
+birationally invariant.
+
+For a smooth cubic threefold \(X\), we isolate the only cubic-specific input.
+Cai's small quantum-connection matrices give a rank-two block with
+primitive-sixth formal monodromy.  We reconstruct its indicial polynomial
+directly, and an elementary \({}_2F_3\) Barnes calculation shows that the
+Gamma point row is nonzero on both primitive-sixth lines.  Quantum K\"unneth
+then makes the packet nonzero on \(X\times\mathbf P^m\), whereas
+\(\mathbf P^{m+3}\) has no primitive-sixth packet.  Conditional birational
+invariance therefore yields irrationality of \(X\times\mathbf P^m\) for every
+\(m\geq0\).  The unconditional endpoint calculation and the exact local
+transport theorems remain independent of the global continuation
+hypothesis.
 \end{abstract}
 
 \noindent\textbf{Keywords.} Gamma class; quantum cohomology; birational wall
@@ -96,6 +96,8 @@ GKZ system.
 \input{sections/05-incomplete-gamma}
 \input{sections/06-fourier-boundary}
 \input{sections/07-two-wall-criterion}
+\input{sections/08-global-transport}
+\input{sections/09-cubic-endpoint}
 \input{sections/08-scope}
 
 \section*{AI assistance disclosure}
