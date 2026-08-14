@@ -1,6 +1,6 @@
 # Export provenance
 
-- Source snapshot commit: `f2e43d478f036f87e9cc180c1438be58e946d8b5`
+- Source snapshot commit: `d4299a8d756907e4e55426b8519e970d81d077c8`
 - Repository identity: `tavisrudd/cubic-stabilization-irrationality`
 - Export method: deterministic, content-addressed source materialization.
 - File hashes and source blob identities are recorded in `export-manifest.json`.

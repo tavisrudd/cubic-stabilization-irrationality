@@ -75,17 +75,17 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "e9a8591fb8a9fb0a4ed0fa845bb0cd5fda20fb2b86ee2950ff66cdffec74a128",
+      "sha256": "f6c18e42e7cfaf5f0abc901b51fcd3bd7a4f322ead9541fc9d9bd17181334234",
       "source_blob": null
     },
     {
-      "bytes": 2482,
+      "bytes": 2602,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "56033246a630695f14563de6bd23edaa8f24e3abc285b74ae2a2e04e057da755",
-      "source_blob": "6f0b20e511f3bf224f647cd287a273c33624b1f3"
+      "sha256": "66b0543b70e93b5d1abf50fcaaef6c914ce9cb1ee8cba5af67271e4cd5aafc1b",
+      "source_blob": "12d2e078ed5ba21dce8d3e8cf3f35cd42559e898"
     },
     {
       "bytes": 167077,
@@ -290,5 +290,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "f2e43d478f036f87e9cc180c1438be58e946d8b5"
+  "source_commit": "d4299a8d756907e4e55426b8519e970d81d077c8"
 }
