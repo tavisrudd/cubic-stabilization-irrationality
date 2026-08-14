@@ -75,35 +75,35 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "bcabed3bb1382c8f7c4ceb93909ccba5677a47f7aa7802205e5edd79d6ff4d41",
+      "sha256": "f794ef528b3b6e6ab9871bfcca131e1df02d373911929bc2c54d60f0dac82110",
       "source_blob": null
     },
     {
-      "bytes": 3065,
+      "bytes": 3120,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "9ca7c152d1ea089d035b013acdfd46c367ce275b3d2151ce2e8044fabdfbd225",
-      "source_blob": "7d4b23a6109cfb80e9d94672dd7b80cc93afe810"
+      "sha256": "072582e81d6f87851555ffe4f056e08bd1fb328a83cb0f28aef23af84bae5cee",
+      "source_blob": "02706a3ff90eea809a9a2f09d3e3ff6036fe619f"
     },
     {
-      "bytes": 186252,
+      "bytes": 187466,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "b4ffb1d1ac8c48e807f1b598581b00421e69dbf900bef8430ffd924f6897b90c",
-      "source_blob": "a7391941f0743d7f02a5044ca0b6259ee6dc4aad"
+      "sha256": "65cb2fc829e3b3b1e5b6bfac2f3a0e8f8fec0f8c8899ec54c92f212a591b2e72",
+      "source_blob": "dc77a59256ea68bd1f57de0f6e33b18749e74db4"
     },
     {
-      "bytes": 5078,
+      "bytes": 5143,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "6c454a6b3a5883d643e6d48ed1bf5ef6789e1916c92434e581d4f85de7f09ee8",
-      "source_blob": "614c24eb99e4790af1634dfcf5bd1206c8fbb711"
+      "sha256": "a81c64260da8002ecdc448fd6a912d8fda59b732dac8409564ce0c4e147626ff",
+      "source_blob": "2e4a2e51d450b1f6e6d99dd096dc1be532b687e5"
     },
     {
       "bytes": 567,
@@ -196,13 +196,13 @@
       "source_blob": "f756d8124b2954bcb70720d4321c2b63b799ad75"
     },
     {
-      "bytes": 29422,
+      "bytes": 30377,
       "mode": "100644",
       "path": "sections/08-global-transport.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "a9b322b42d67cf87d5f008907123c8847dda0227dc5db188e38cd105c8be812f",
-      "source_blob": "162b46feca2582a2622005c3a6a9a989e191ae42"
+      "sha256": "28271e5d2411337505c8b5a0af81dfbd1d86a8a98135e5449aed7c966366583b",
+      "source_blob": "e02927c93ec2a68c365afcb695f123b3c4763fcf"
     },
     {
       "bytes": 4508,
@@ -255,8 +255,8 @@
       "path": "verification/check_manuscript_build.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "d599a7350d57e7e8bd2cb5690d5a8361e29dc808ff51a8f93125d7548269b4b0",
-      "source_blob": "fd50b1d91f4f7733b69d4289fbc4cbbb3a507799"
+      "sha256": "b0b2685272f9fa82d027ee0741a7f04fc802287fcbcf2cfe6767edd602fed098",
+      "source_blob": "925dc06a6b17b744318c846a938b4fb890ef58aa"
     },
     {
       "bytes": 6601,
@@ -290,5 +290,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "55d932b8387bfbb48412c029ba0e32840ee81673"
+  "source_commit": "a9c39bfdf1cc62cb1af861cc7ee7cf439130bab0"
 }
