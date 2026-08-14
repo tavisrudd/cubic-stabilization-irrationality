@@ -31,7 +31,7 @@
       "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
     },
     {
-      "bytes": 1369,
+      "bytes": 1405,
       "mode": "100644",
       "path": "Makefile",
       "rewrites": [
@@ -67,25 +67,43 @@
         }
       ],
       "role": "support",
-      "sha256": "2e0cbbe71c623913ff04cafd89a656ef58eed39567ab0c62dc176056154202df",
-      "source_blob": "4971e9a01b99ab1c2b196005d899dcdd99285bf3"
+      "sha256": "d9eac0a0077e393ac6ecf346d27753fb78d3b911ced62d7b31728b69b7d3b06a",
+      "source_blob": "fbf32909d7d9746225d57194ca50b15c177a794c"
     },
     {
-      "bytes": 296,
+      "bytes": 314,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "95f00e21f4b93bda9c050f9c1ce39d8467bd12a2c0b0a3b7e6be3a127db6c4f6",
+      "sha256": "e9a8591fb8a9fb0a4ed0fa845bb0cd5fda20fb2b86ee2950ff66cdffec74a128",
       "source_blob": null
     },
     {
-      "bytes": 2464,
+      "bytes": 2482,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "586652a42012ac9714843ff4f5138d16e86e6b12d3737ca2071dcf0a388915a9",
-      "source_blob": "dc28d5b3b0ad305603519f7527c4f4ae1ac3b4e4"
+      "sha256": "56033246a630695f14563de6bd23edaa8f24e3abc285b74ae2a2e04e057da755",
+      "source_blob": "6f0b20e511f3bf224f647cd287a273c33624b1f3"
+    },
+    {
+      "bytes": 167077,
+      "mode": "100644",
+      "path": "cubic_stabilization_irrationality.pdf",
+      "rewrites": [],
+      "role": "release-output",
+      "sha256": "239540d2b05c267339149c0d03a347dd91a27fd17c64fcf038b0f743ed36148c",
+      "source_blob": "96f45505e62ce229eee7b183147407f2b342d59b"
+    },
+    {
+      "bytes": 4907,
+      "mode": "100644",
+      "path": "cubic_stabilization_irrationality.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "d80a87fc6836d57cc7bd871bd799f1f058cb1572ea5520d33b98c5aee58a6a94",
+      "source_blob": "93f598373b7e3a944bc264a1630981bddd1a2e1c"
     },
     {
       "bytes": 567,
@@ -104,24 +122,6 @@
       "role": "support",
       "sha256": "559c3b0251fcc6df628f987c895b297e9be7ed852e5c656b983199d609e563ed",
       "source_blob": "d71dcb2e658d3ab95fac8f9df13f4ea419cfa3e1"
-    },
-    {
-      "bytes": 167077,
-      "mode": "100644",
-      "path": "gamma_point_row.pdf",
-      "rewrites": [],
-      "role": "release-output",
-      "sha256": "04849cbd8cf056b3e010207c17c8567505eac0ad9b82c37be81d26fed39b9988",
-      "source_blob": "9030edf895294d542433fe12d120224883dde4c3"
-    },
-    {
-      "bytes": 4907,
-      "mode": "100644",
-      "path": "gamma_point_row.tex",
-      "rewrites": [],
-      "role": "manuscript-source",
-      "sha256": "d80a87fc6836d57cc7bd871bd799f1f058cb1572ea5520d33b98c5aee58a6a94",
-      "source_blob": "93f598373b7e3a944bc264a1630981bddd1a2e1c"
     },
     {
       "bytes": 4301,
@@ -228,8 +228,8 @@
       "path": "verification/README.md",
       "rewrites": [],
       "role": "verification",
-      "sha256": "c1bca4f077831c4d57a219d33b7a2da8f5a97735940412ec8aa1668c05d72cf3",
-      "source_blob": "9db9652cbc130cb6ceeb689db3d600067884bc49"
+      "sha256": "17bd37388fe4c16db543fbd9767dd03d3a788435165e814f664c637370f0c9df",
+      "source_blob": "a677130be7bc797976a0f57c2cba39a42c67e1cc"
     },
     {
       "bytes": 188,
@@ -237,58 +237,58 @@
       "path": "verification/SHA256SUMS",
       "rewrites": [],
       "role": "verification",
-      "sha256": "5fa65d228823db24913d77ecfcfeec3b2244dee6a848f740a44b2c8051fab20f",
-      "source_blob": "d191ffacf7bc05659960e18c91a6cedff8a99327"
+      "sha256": "5b1f8810378dcdae26bc985ba06326d784499b715e4a59268206be1c4336b523",
+      "source_blob": "3df443c0ce57bd1a0ea0cbc265e3cd33e9a99b23"
     },
     {
-      "bytes": 10481,
+      "bytes": 10499,
       "mode": "100644",
       "path": "verification/check_cubic_endpoint.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "b7b6e54b49d258169d2e30a971288a937ca013d0af7812ba166162b8187a5e57",
-      "source_blob": "8c6d42d4c9da9d40d6587413d5364ba9d48803cc"
+      "sha256": "c85d7b72db2de6450a6885dc58b8e05f2f182430e88e0010214536bc839dbc9f",
+      "source_blob": "919295c37cc91d5037c410e8cd2729e675080ebc"
     },
     {
-      "bytes": 3807,
+      "bytes": 3967,
       "mode": "100644",
       "path": "verification/check_manuscript_build.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "024725d5dce829db73776ce285b2f539366eeb05055a140a0a8d6547b8607928",
-      "source_blob": "f25a8ce8f6841ca8dc3bba177af4a5968dbf106d"
+      "sha256": "b4f830d7291d9de0ab9fac7521b086f6debce9609c486a2f07e1f45eb98caf98",
+      "source_blob": "62878d77bf94d6f5b0a7e4a3725f8c7f2c7ec570"
     },
     {
-      "bytes": 5544,
+      "bytes": 5597,
       "mode": "100644",
       "path": "verification/check_release_surface.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "d61c19037f4745d70ce7c6827ecee69403fc55146483d2bfdc9ba8df07f2f0e8",
-      "source_blob": "79e5e5faa4a60af3561afda36daeb969b23f4016"
+      "sha256": "14de5b120f5f5fcef2095e056457a2716fd1d929bed63abca7ac26f2c2acca65",
+      "source_blob": "90ec238907c20c6ce1411c4a0063d4862046bc3c"
     },
     {
-      "bytes": 10217,
+      "bytes": 10235,
       "mode": "100644",
       "path": "verification/cubic_endpoint_certificate.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "54d391961fcb6360b5e5757b8cc1103818ce2ad45ea814fe1828ab1febe3d224",
-      "source_blob": "debe9c9eb1b34189ccac67e17bfce1f40eb1bfd7"
+      "sha256": "fcdeabcb8141f9f0279c56652f8913e11af59218a4db40a4fa6d3ede67aeb8a7",
+      "source_blob": "edbf87be3eebde76fc630941055335b90e05e822"
     }
   ],
-  "github": "tavisrudd/gamma-point-row",
+  "github": "tavisrudd/cubic-stabilization-irrationality",
   "main_sources": [
-    "gamma_point_row.tex"
+    "cubic_stabilization_irrationality.tex"
   ],
   "manifest_self_excluded": true,
   "paper_ids": [
-    "gamma_point_row"
+    "cubic_stabilization_irrationality"
   ],
-  "paper_registry_sha256": "836e68438a2362c67a84a99cb8e6dfd02c5979c2d342b74b608b8f3faa2b8985",
+  "paper_registry_sha256": "e3e739fd4bca142a8c245291c1d30125fa468718cc8351c23c2b2fc3c452e84e",
   "release_output_policy": "immutable-source",
-  "repository": "gamma-point-row",
-  "repository_map_sha256": "35a514cfb20cec6b164dbb6d43baa5b9bb57c62ebc7c6be8a7e7f17875f8e261",
+  "repository": "cubic-stabilization-irrationality",
+  "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "7d7e04a9c329751c68b9664f41ef04c3233d5e71"
+  "source_commit": "f2e43d478f036f87e9cc180c1438be58e946d8b5"
 }

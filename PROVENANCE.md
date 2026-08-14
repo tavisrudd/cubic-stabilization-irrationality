@@ -1,6 +1,6 @@
 # Export provenance
 
-- Source snapshot commit: `7d7e04a9c329751c68b9664f41ef04c3233d5e71`
-- Repository identity: `tavisrudd/gamma-point-row`
+- Source snapshot commit: `f2e43d478f036f87e9cc180c1438be58e946d8b5`
+- Repository identity: `tavisrudd/cubic-stabilization-irrationality`
 - Export method: deterministic, content-addressed source materialization.
 - File hashes and source blob identities are recorded in `export-manifest.json`.
