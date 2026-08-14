@@ -75,7 +75,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "7b0801a6d328871b4917db9445b7baf7a4c67db545cd5b93ae5beba48647dd6d",
+      "sha256": "f85e7640281648f4f06584bdeb598142b61ce19440f36403898a510fc35ee46c",
       "source_blob": null
     },
     {
@@ -250,13 +250,13 @@
       "source_blob": "8c6d42d4c9da9d40d6587413d5364ba9d48803cc"
     },
     {
-      "bytes": 5236,
+      "bytes": 5470,
       "mode": "100644",
       "path": "verification/check_release_surface.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "e0dec5ea8bc0225c6329cff3328c36410b8d40148b85e10490f6130bce67cc3c",
-      "source_blob": "00fb1d7e90311e85f15f324be6942a903d690b64"
+      "sha256": "6f2249026ab023f63bceaeda5ef11050179f714e8ed9d98ea91f04cdf8a0219e",
+      "source_blob": "22a0a600f3f6ef3b86f1f72f0eda30e1dd4478b2"
     },
     {
       "bytes": 10217,
@@ -281,5 +281,5 @@
   "repository": "gamma-point-row",
   "repository_map_sha256": "ffe6996b346936490e513d141ba56d42d0a9a86dd067571eae3cb6e0dd9400f3",
   "schema_version": 1,
-  "source_commit": "b6eaa00a41eaf9a6d308fc08dcbc70c013260817"
+  "source_commit": "6c9c32511c8bd5e4ec4cc29615dcab06fc8d4031"
 }
