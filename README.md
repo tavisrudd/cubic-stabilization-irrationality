@@ -1,14 +1,17 @@
-# Point-Class Rank under Quantum Wall Crossing
+# Conditional Irrationality of All Projective Stabilizations of Cubic Threefolds
 
 ## Read the paper
 
 [**Open the paper (PDF) →**](gamma_point_row.pdf)
 
-**Title:** *Point-Class Rank under Quantum Wall Crossing: Local Transport,
-Global Obstructions, and Cubic Threefolds*.
+**Title:** *Conditional Irrationality of All Projective Stabilizations of
+Cubic Threefolds: Point-Class Rank under Quantum Wall Crossing*.
 
-The paper proves exact point-row transport identities for a simple VGIT wall
-and an ordinary flop, together with countermodels that obstruct naive
+Assuming the complete-neutral continuation hypothesis stated in the paper,
+the product of any smooth complex cubic threefold with any projective space
+is irrational. The paper proves an exact ambient point-column identity for a
+simple VGIT wall and exact point-row transport across an ordinary flop,
+together with countermodels that obstruct naive
 composition. For a global equivariant cobordism it proves support collapse
 and a coefficientwise balanced Gamma-ratio reduction. The remaining
 complete-neutral continuation of the nonlinear fixed-graph sum is stated as
@@ -36,10 +39,14 @@ Run:
     make check
 
 This executes the paper-owned release-surface and cubic-endpoint checks,
-applies the monorepo TeX spacing lint in the authority repository, rebuilds
-the PDF with the pinned Nix toolchain, and fails on LaTeX warnings or overfull
-boxes. In the standalone export, the monorepo-only spacing lint is omitted;
-the mathematical release checks and warning gate remain.
+applies the monorepo TeX spacing lint in the authority repository, and rebuilds
+the manuscript in an isolated directory with the pinned Nix toolchain. The
+fresh deterministic PDF must match the tracked PDF byte for byte, so stale
+auxiliary files cannot conceal a source/PDF mismatch. The gate also fails on
+LaTeX warnings or overfull boxes. After editing manuscript sources, refresh the
+tracked artifact with `make manuscript-update`, then run `make check`. In the
+standalone export, the monorepo-only spacing lint is omitted; the mathematical
+release checks, isolated-build comparison, and warning gate remain.
 
 ## License
 
