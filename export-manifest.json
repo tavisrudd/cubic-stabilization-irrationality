@@ -1,0 +1,240 @@
+{
+  "excluded_path_count": 2,
+  "excluded_release_outputs": [],
+  "excluded_symlinks": [],
+  "exporter_blob": "7bc6af6a40123bfa071466d9ed3faeaafb7e8d60",
+  "files": [
+    {
+      "bytes": 108,
+      "mode": "100644",
+      "path": ".gitignore",
+      "role": "export-support",
+      "sha256": "8aec252fe1e8e2a04924eeac30581deea8368b151c9e82d6601a1d6393be8b27",
+      "source_blob": null
+    },
+    {
+      "bytes": 1924,
+      "mode": "100644",
+      "path": ".zenodo.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "d9aad71036b9f1f3a2464d836b5b7f24bf1df43ed52c0401130d561ea5e22f81",
+      "source_blob": "856a086afbe04b19b8859934387eace8fc94f8d0"
+    },
+    {
+      "bytes": 470,
+      "mode": "100644",
+      "path": "LICENSE",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "55bd30dbbfb4a62d77bfd74a183e68ac3fa392c12802e0b56ad02613b9248d7c",
+      "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
+    },
+    {
+      "bytes": 802,
+      "mode": "100644",
+      "path": "Makefile",
+      "rewrites": [
+        {
+          "expected_count": 1,
+          "new": "TEXSHELL ?= nix develop .\\#manuscript --command",
+          "old": "TEXSHELL ?= nix develop ..\\#manuscript --command",
+          "reason": "the standalone repository carries its own pinned manuscript flake"
+        },
+        {
+          "expected_count": 1,
+          "new": ".PHONY: all check evidence manuscript warnings clean distclean",
+          "old": ".PHONY: all check evidence lint manuscript warnings clean distclean",
+          "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
+        },
+        {
+          "expected_count": 1,
+          "new": "all: manuscript\n\ncheck: evidence manuscript warnings",
+          "old": "all: lint manuscript\n\ncheck: evidence lint manuscript warnings",
+          "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
+        },
+        {
+          "expected_count": 1,
+          "new": "",
+          "old": "lint:\n\t$(PYTHON) ../scripts/lint_tex_spacing.py $(SOURCE) sections/*.tex\n\n",
+          "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
+        },
+        {
+          "expected_count": 1,
+          "new": "manuscript: $(SOURCE) sections/*.tex refs.bib\n",
+          "old": "manuscript: $(SOURCE) sections/*.tex refs.bib\n\t$(PYTHON) ../scripts/lint_tex_spacing.py $(SOURCE) sections/*.tex\n",
+          "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
+        }
+      ],
+      "role": "support",
+      "sha256": "457e74a0dcf252d2e0e792c7f5c8a039ae72b5ddeee86adba1c9abed4a2c5999",
+      "source_blob": "a87dcad9b14d9ce014248e8f5060e96b14230593"
+    },
+    {
+      "bytes": 296,
+      "mode": "100644",
+      "path": "PROVENANCE.md",
+      "role": "provenance",
+      "sha256": "c91ad71a6a6c9d6ad6b9c4defccde5628ca5d5a81d497eefb0ba951455347ee5",
+      "source_blob": null
+    },
+    {
+      "bytes": 1801,
+      "mode": "100644",
+      "path": "README.md",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "06018c0ced838ccef1d51133af134883cfcb215b7654349564812096d45122e3",
+      "source_blob": "333fc35a4065ab9c9a4fbb14f9721986de03bc1c"
+    },
+    {
+      "bytes": 567,
+      "mode": "100644",
+      "path": "flake.lock",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "9ae203c10f2e27ff1a11363a02ac43747d9766f8f17c975b5d825ed480d120cc",
+      "source_blob": "c06115a1e8e270fb2772ce0ef216d75ab95e492f"
+    },
+    {
+      "bytes": 648,
+      "mode": "100644",
+      "path": "flake.nix",
+      "rewrites": [],
+      "role": "support",
+      "sha256": "559c3b0251fcc6df628f987c895b297e9be7ed852e5c656b983199d609e563ed",
+      "source_blob": "d71dcb2e658d3ab95fac8f9df13f4ea419cfa3e1"
+    },
+    {
+      "bytes": 121982,
+      "mode": "100644",
+      "path": "gamma_point_row.pdf",
+      "rewrites": [],
+      "role": "release-output",
+      "sha256": "d8bb7b7165b0a928d09d9a0bd6de628ce3b5853fae855ffe0deb52b304ff9f65",
+      "source_blob": "bc6184c6f89dc1c3cc51a1f8f69fa57dccad72e7"
+    },
+    {
+      "bytes": 4744,
+      "mode": "100644",
+      "path": "gamma_point_row.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "67ab0486ffaae8a3b4e33740d107c43cbdc3b4e37d0e08255b3ece84c611b15a",
+      "source_blob": "d95c3af59ba393796b8d48f816ca2744fa3c9fbb"
+    },
+    {
+      "bytes": 2766,
+      "mode": "100644",
+      "path": "refs.bib",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "b4231bf499a09201522684eafdedf5ce1b0e74f085af4a83f03b3fc8d9534256",
+      "source_blob": "95c9fdb7c0afae29ab162c5c65fa5cffda108f32"
+    },
+    {
+      "bytes": 6440,
+      "mode": "100644",
+      "path": "sections/01-introduction.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "499bb30ebae6957c20ab0990d0d8384a01921f75465fde734af51a8584f4609d",
+      "source_blob": "52cc038dd0a187b4fc2d248f713e1d508ab5e9b8"
+    },
+    {
+      "bytes": 2797,
+      "mode": "100644",
+      "path": "sections/02-point-row.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "c05906a935c96b774c201844a0569b515957cd0857e78ad05f45ea07e5785373",
+      "source_blob": "27e4722e5389c01c5bfa3f58bc1a725d6627fdbc"
+    },
+    {
+      "bytes": 6930,
+      "mode": "100644",
+      "path": "sections/03-simple-wall.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "4ef78806cfd280865e0fc165412c0727826d3fc6fd0b2485efda84710031843c",
+      "source_blob": "b3fcdcdbc190e6e76b3fe1142c78e8465041e7a8"
+    },
+    {
+      "bytes": 4439,
+      "mode": "100644",
+      "path": "sections/04-ordinary-flop.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "f55b0094ed1480a8c9e0269ef2bcf7a2fc4c8c19d67e9ba1f8163371f5292472",
+      "source_blob": "44e4451aa532b819c86a1b46cea0b5e24bcf3d10"
+    },
+    {
+      "bytes": 3236,
+      "mode": "100644",
+      "path": "sections/05-incomplete-gamma.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "f1d6e9ea4790d6be0bbb22142cf0998c481edb4538aa8cc44782f26352f6a1a3",
+      "source_blob": "4221b1a012c4ea9d6e88464b4ece31c39c646673"
+    },
+    {
+      "bytes": 3079,
+      "mode": "100644",
+      "path": "sections/06-fourier-boundary.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "bb7c6981a0efcd3f9e32478075d0488f33d1c2477c75307fec83d2c04da24c7b",
+      "source_blob": "8ecbf0086f66a9b4a3c56d9186127a81f0d78450"
+    },
+    {
+      "bytes": 5081,
+      "mode": "100644",
+      "path": "sections/07-two-wall-criterion.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "4e65f43d3e22eb81fccbf01d35692d6fb74bc734aa97842c27b99b514b137e46",
+      "source_blob": "f756d8124b2954bcb70720d4321c2b63b799ad75"
+    },
+    {
+      "bytes": 3556,
+      "mode": "100644",
+      "path": "sections/08-scope.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "1796e759da674044c703f559843d470aad9f82cbf8101d9fdc3090ec664d217f",
+      "source_blob": "b6911cc769acb16b2cc778856cca63f0c031ebdd"
+    },
+    {
+      "bytes": 417,
+      "mode": "100644",
+      "path": "verification/README.md",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "56a52b4c6ef3a314c578b42707c9abc9cc5a307e8843f92c6eb2734fa8ca3d9c",
+      "source_blob": "40224e2749386eee3fe6609d146ad92b78e32e78"
+    },
+    {
+      "bytes": 2733,
+      "mode": "100644",
+      "path": "verification/check_release_surface.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "4f7fb28a920ab5b8aca5bc6e9995e0ef30d003993f870a3c65cbf9e2ad39cbbe",
+      "source_blob": "168ae6713313de1b8aa35d86971078f28a8c24b3"
+    }
+  ],
+  "github": "tavisrudd/gamma-point-row",
+  "main_sources": [
+    "gamma_point_row.tex"
+  ],
+  "manifest_self_excluded": true,
+  "paper_ids": [
+    "gamma_point_row"
+  ],
+  "paper_registry_sha256": "836e68438a2362c67a84a99cb8e6dfd02c5979c2d342b74b608b8f3faa2b8985",
+  "release_output_policy": "immutable-source",
+  "repository": "gamma-point-row",
+  "repository_map_sha256": "ffe6996b346936490e513d141ba56d42d0a9a86dd067571eae3cb6e0dd9400f3",
+  "schema_version": 1,
+  "source_commit": "9d5b8248ff22089019ed800d95147ca66d3ece0a"
+}
