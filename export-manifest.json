@@ -75,7 +75,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "80c5ec3f9218974a1f3aa885ad6d54cdf9d289025f4a168fe8f6d745d3a2c9fc",
+      "sha256": "8c00c18ce4d54e46a81b80d41722e92f650a16b24267b454474137b390554b6b",
       "source_blob": null
     },
     {
@@ -88,13 +88,13 @@
       "source_blob": "42fca6fd3bacd518b3980120666043850714cead"
     },
     {
-      "bytes": 211087,
+      "bytes": 211337,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "3d90947b6ea59b9d57522affdc9b6469edfb247f8c97136816286f7b3d69eb8c",
-      "source_blob": "5273596d17b2ee07b90d11e456806dd72c6b7c3e"
+      "sha256": "28adf98c93ac659c442d3fa476000f5100588a85b5de180a9a71331ec7583d86",
+      "source_blob": "ba127bcf252beeca04a547a5edbbb5a2b03405fb"
     },
     {
       "bytes": 5537,
@@ -196,13 +196,13 @@
       "source_blob": "9de536bc113af914d2dcd0a392d758189492a419"
     },
     {
-      "bytes": 44718,
+      "bytes": 45074,
       "mode": "100644",
       "path": "sections/08-global-transport.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "10ef5db54f71756d1f87895acb95beea47f0c20f5cb5f6317f0ec72d05c8a11a",
-      "source_blob": "de554116561d684d580d1fd0fb0075792ee3a167"
+      "sha256": "1114d826fdfe71100d35c5517a31b6c4c88cc2038fcd8419b4e57497fde1a49e",
+      "source_blob": "b79459ff471d8d41334dbfa5ae8090dce8e40f94"
     },
     {
       "bytes": 5398,
@@ -290,5 +290,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "0ef4ae33345c2eb4d21941eb9b1a0df89a0b5604"
+  "source_commit": "e4294ec8321794e0a6faef5ddbb79b099559254c"
 }
