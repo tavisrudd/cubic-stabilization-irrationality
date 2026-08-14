@@ -75,7 +75,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "99b0c4d65ff5dc3ed50a90221b8bcbdcb4eb98710db5b6d8972c9e0ac9c80df1",
+      "sha256": "80c5ec3f9218974a1f3aa885ad6d54cdf9d289025f4a168fe8f6d745d3a2c9fc",
       "source_blob": null
     },
     {
@@ -88,13 +88,13 @@
       "source_blob": "42fca6fd3bacd518b3980120666043850714cead"
     },
     {
-      "bytes": 210066,
+      "bytes": 211087,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "43ed960d4df9ccacdb529e58092bf07bcdd1e4456039db44b2d7a62a1fffa78e",
-      "source_blob": "451285c622c1c9524d647f13c016364e1944d637"
+      "sha256": "3d90947b6ea59b9d57522affdc9b6469edfb247f8c97136816286f7b3d69eb8c",
+      "source_blob": "5273596d17b2ee07b90d11e456806dd72c6b7c3e"
     },
     {
       "bytes": 5537,
@@ -124,13 +124,13 @@
       "source_blob": "d71dcb2e658d3ab95fac8f9df13f4ea419cfa3e1"
     },
     {
-      "bytes": 4610,
+      "bytes": 4848,
       "mode": "100644",
       "path": "refs.bib",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "eb757bc81df1913b8bbd9c1e1e07ac210c42f3f6e206deee6e717a9eae9857b6",
-      "source_blob": "9b05ea23125718ab26cacb1093c3cec71ef09397"
+      "sha256": "5a6dfd1f34b4dd5702354f0f48a4dd620f6fd15a52ba579f2f23fd4865254181",
+      "source_blob": "b2c95f8f4e6b32f63e3ca03faaa7354baff00270"
     },
     {
       "bytes": 10672,
@@ -196,13 +196,13 @@
       "source_blob": "9de536bc113af914d2dcd0a392d758189492a419"
     },
     {
-      "bytes": 44070,
+      "bytes": 44718,
       "mode": "100644",
       "path": "sections/08-global-transport.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "883addf048e9351125d30ecdcd0396df286ed923deebecc2d1794dbf1e50629a",
-      "source_blob": "5205e4fd982a28f192a2f2389682d16d889efa25"
+      "sha256": "10ef5db54f71756d1f87895acb95beea47f0c20f5cb5f6317f0ec72d05c8a11a",
+      "source_blob": "de554116561d684d580d1fd0fb0075792ee3a167"
     },
     {
       "bytes": 5398,
@@ -255,8 +255,8 @@
       "path": "verification/check_manuscript_build.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "d992688808cce102656914680868ff794be66a0a4cf758b3a9a837faba8c4101",
-      "source_blob": "f17320ff51cbfc42fa27b38f3f47d562894a00f8"
+      "sha256": "3d854587fdfa21940ec7248d01751ce6a161423cb7a53de2ae5333a9888de8f2",
+      "source_blob": "84556ffabd978c212ac69d7d791814290765d01b"
     },
     {
       "bytes": 7573,
@@ -290,5 +290,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "9acab5fdcbdc6d15900b7a57bd09c67e37c90d40"
+  "source_commit": "0ef4ae33345c2eb4d21941eb9b1a0df89a0b5604"
 }
