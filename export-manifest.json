@@ -75,7 +75,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "1b4ed706435f9efbe9726b22857c064f813077c865d8105d8f8a5cadd607d9e5",
+      "sha256": "d7e74f8664dc4dddbbc58f6534d878bf8f2fbf64c138124f313cbe3d94a24acc",
       "source_blob": null
     },
     {
@@ -88,22 +88,22 @@
       "source_blob": "77d3f9b8c40274465a605dc65c7d6e1ca742cebd"
     },
     {
-      "bytes": 220039,
+      "bytes": 227769,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "eb934b5c26c3def602d74eedff103b6d31f648434262419f890095b53d01b7a6",
-      "source_blob": "e3454bc9db4e4bd1436cd7cf61f868e1b4a53249"
+      "sha256": "a7f462c784f3db648391e979d4fabf1925de434054f0cd41aecfcaabfa9a421e",
+      "source_blob": "9ced651bf933cfbfa40d9a93b0db8b633d6a8f4f"
     },
     {
-      "bytes": 5539,
+      "bytes": 5803,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "f4082db760fcb4ee3737c3ec396baae721b16f187644350361f0a7f832b9a7da",
-      "source_blob": "0930c003aeda4ea344a7f6fa8ad505ef39c372cd"
+      "sha256": "9edae657b7a281248bd49cae3210d0f4d9c1d5532cd50659878b9ad2215977ea",
+      "source_blob": "ccde241be6dc52dc59d31a07b539a3e03c002ca4"
     },
     {
       "bytes": 567,
@@ -133,13 +133,13 @@
       "source_blob": "b24df94a8fafaf8b1ee72d78582a3d62dae95236"
     },
     {
-      "bytes": 10872,
+      "bytes": 11931,
       "mode": "100644",
       "path": "sections/01-introduction.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "ba9c11e239bb721e0931b4fadbcfa5a3517640090af01cc063fdff8218bf0884",
-      "source_blob": "2abf0c6ea43dd7641779bf007d3996a5175bfc15"
+      "sha256": "0724f2707da7e45f9ecafcec7661931509d3e6b3324bea60cd97bbe15dfba73c",
+      "source_blob": "a8b3930e416d5118cd649404bfed6eab8a8ea1c9"
     },
     {
       "bytes": 2897,
@@ -196,22 +196,22 @@
       "source_blob": "9de536bc113af914d2dcd0a392d758189492a419"
     },
     {
-      "bytes": 46685,
+      "bytes": 52282,
       "mode": "100644",
       "path": "sections/08-global-transport.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "2849d0ae4a0e79550645b644b15feace2c66052cc8eda347099c6a2778c1b3d3",
-      "source_blob": "68916a5c290ce50f429839f1f9bc629c115e1773"
+      "sha256": "7425359d26f64e0c39ce43dfad12f1d20ca3f696de0978aece6d74737556f525",
+      "source_blob": "296989d937172da0dad5316a69c5323d28ea9dbc"
     },
     {
-      "bytes": 5416,
+      "bytes": 5745,
       "mode": "100644",
       "path": "sections/08-scope.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "34f2c723792e70642a9624c4a2602ea282def04aca86f317289788effe252639",
-      "source_blob": "2cb2ce2d351ae060ac92900c3888f0663f40181d"
+      "sha256": "8eeea4e90a15ae94dadd9a39bdd0c90c6b4ac309833ce32035d20e7a0c222811",
+      "source_blob": "964d5274c367b470a92d4de6decc3494828a31e7"
     },
     {
       "bytes": 7930,
@@ -255,17 +255,17 @@
       "path": "verification/check_manuscript_build.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "6e9b496158710387c8ba558ac75271a74d5b8fe46cc0485e973a1ffa7951ad28",
-      "source_blob": "7e6915858c76e3f4be71676a892bfbf84aea251f"
+      "sha256": "7885046e46fc71c7abd759cdcb0bc83bd8debf26e06caa42fcef32c9cd2ae2ac",
+      "source_blob": "ebd96dfdb56ce4d8cce756b15c8916308d29566f"
     },
     {
-      "bytes": 7573,
+      "bytes": 8065,
       "mode": "100644",
       "path": "verification/check_release_surface.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "8510bd2dad9f9f5577ab9517dfa5c823b18f98eb5565d9e49127365e62b7ade2",
-      "source_blob": "d83f7ec84205374c5a4b1c37ee87de48246b5cd3"
+      "sha256": "720f00568960630969f28bddb4627da93f049c50adf33f0623da5320a966dd87",
+      "source_blob": "27735f78d912211ef98b08b19b9e177d8e11d97e"
     },
     {
       "bytes": 10272,
@@ -290,5 +290,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "28a4457aae4fa777712e6d1d3354aebb246a9756"
+  "source_commit": "27649bc3aa805e76905994bca8fe8650968a8c3f"
 }
