@@ -110,15 +110,19 @@ on the corresponding packet at the other endpoint.
 The conditional proof uses a smooth projective equivariant completion of one
 W{\l}odarczyk cobordism.  A point in the common birational open sweeps out an
 orbit cylinder.  Its equivariant class restricts to the two endpoint point
-classes and vanishes on every intermediate fixed stratum, so rotation
-localization removes every wall contribution.
+classes and vanishes on every fixed stratum that is semistable for an
+interpolated polarization.  That class is inserted at the output evaluation of
+the graph factor, which is computed from the principal component and so lands
+in exactly such a stratum, and every wall term of the polarization sweep
+therefore vanishes.  Rotation localization does different work: it produces
+the graph factor and the degree extraction that isolates it.
 
 The rest of the proof has two stages.  First, Woodward's factorization
 packages the complete bubble tree in each neutral affine gauge direction into
 fixed stable-map factors.  Theorem~\ref{thm:tailwise-derived} identifies
 their fixed stacks, perfect obstruction theories, virtual classes, and
 evaluations along each affine tail.  The moving factors then give a finite-jet
-Gamma recurrence, so each tail is holonomic and tempered.  Second,
+Gamma recurrence, so each tail is \((D)\)-finite and tempered.  Second,
 Hypotheses~\ref{hyp:marked-threshold-wall}
 and~\ref{hyp:marked-threshold-zero} postulate an inverse-system family of
 one-object comparisons of the finite cyclic Rees \(z\)-modules across the intervening
