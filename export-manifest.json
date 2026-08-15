@@ -75,35 +75,35 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "e6c8d80844f60652705e469b2294e6e9f0cd35b99960720b2ccd146c1e17da6e",
+      "sha256": "832a0f11e4f4ee66fea41849016d5939d3b55d19f064739fd4ef766c081f6273",
       "source_blob": null
     },
     {
-      "bytes": 3446,
+      "bytes": 3518,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "5835667ce21c5a309fc69e0bf3e83b57edb66a6182cd11748dafac78dbd6d3be",
-      "source_blob": "a9d636958d2f6a258757ef445cf248cf3b36ae8f"
+      "sha256": "37e7dc3f3f5cefa7346cfe23d93dcb7fe3db06e2d540948bf95c8fd69c7b2f14",
+      "source_blob": "bfe38fd63b9db1759eeaa121ac7621233b20266b"
     },
     {
-      "bytes": 329550,
+      "bytes": 330193,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "944487a87595841c4fbbdf7ba3c834d4a9a84c88318f10ecbbe31a009f13446e",
-      "source_blob": "9d8d8d7fee1043414799ddb8530c5599b994ac74"
+      "sha256": "f06fe88dbf6401880a73f88619a249bf43b0915c9705a01a728f57e383c75c88",
+      "source_blob": "f7302a37b3f856aa31a74109d5b2fc229801bf25"
     },
     {
-      "bytes": 5160,
+      "bytes": 5265,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "3aa7ed13aeb7915720c0e26eb6053cfa80e01dddb2b6a5fdda9203a9f3e80a7a",
-      "source_blob": "20593c543a41d557bbb9fecd6603d61621c24f55"
+      "sha256": "389d91aac590602c64f21bb4aa55b75eee260151397ec264a6d2ee3f34b09e69",
+      "source_blob": "5724daf7862513dcd5fdced39ab1f21a80353bae"
     },
     {
       "bytes": 567,
@@ -299,5 +299,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "75bfa92710ad07b49d2c4b38613e99b5d060c4f6"
+  "source_commit": "8b6e12dd5a67a55d59ac36802223d5cf41fbbe2f"
 }
