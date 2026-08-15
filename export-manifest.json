@@ -75,7 +75,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "49cf6abc1c59e9dcc97fad6c805a9038ee2e1e1b47cbe017f8713f8ccc6e27bb",
+      "sha256": "3e583930f807dfec0c9d2151d3cd1a262493e6cb899a620064e9be35fd51a7c9",
       "source_blob": null
     },
     {
@@ -299,5 +299,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "b1287d69c4398954d5ac0d89e29bbd2425c5da957d3e7a6380f638513346803a",
   "schema_version": 1,
-  "source_commit": "68dd25a3dea78c916b221b1e44e71b3c9bdc6793"
+  "source_commit": "673f51da195d1ea361eafc68de30b32b58bf299a"
 }
