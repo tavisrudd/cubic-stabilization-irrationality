@@ -1,5 +1,5 @@
 {
-  description = "Pinned toolchain for the Gamma point-row paper";
+  description = "Pinned toolchain for the cubic stabilization paper";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

@@ -1,71 +1,55 @@
-# Gamma Point Rows under Quantum Wall Crossing and a Criterion for Stable Irrationality
-
-**Early draft, likely to contain logical gaps and notational issues.**
+# Explicit Cubic Threefolds Rational after Two Stabilizations
 
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21937490-blue.svg)](https://doi.org/10.5281/zenodo.21937490)
 
-## Read the paper
+[Open the manuscript PDF](cubic_stabilization_irrationality.pdf)
 
-[**Open the paper (PDF) →**](cubic_stabilization_irrationality.pdf)
+For each of the two displayed smooth cubic threefolds `X/Q`, the least `m`
+for which `X × P^m` is rational is exactly two, over both `Q` and `C`.
+Rationality at `m=2` is proved here; irrationality at `m=1` is supplied by the
+separately cited theorem for all smooth complex cubic threefolds.
 
-**Title:** *Gamma Point Rows under Quantum Wall Crossing and a Criterion for
-Stable Irrationality*.
+The reusable theorem concerns a smooth quartic del Pezzo surface `S` over a
+characteristic-zero field `k`: if `S(k)` is nonempty and the geometric Picard
+lattice is a stably permutation Galois module, then `S × A²`, equivalently
+`S × P²`, is `k`-rational. It applies to every member of both explicit
+Tschinkel–Zhang families of cubic hypersurfaces. Their stable-rationality
+conclusions therefore hold with the uniform bound `P²`.
 
-Assuming a gauged-admissible marked Włodarczyk completion and the
-inverse-system family of one-object marked threshold comparisons stated in the paper,
-the product of any
-smooth complex cubic threefold with any projective space is irrational. The
-paper proves an exact ambient point-column identity for a
-simple VGIT wall and exact point-row transport across an ordinary flop,
-together with countermodels that obstruct naive
-composition. For a global equivariant cobordism it proves support collapse
-and a coefficientwise balanced Gamma-ratio reduction. It further proves that
-the derived fixed clutching stacks are constant along every rank-one tail
-between thresholds, so the complete neutral tails are D-finite and tempered.
-Beyond gauged-admissibility, the remaining unproved input is a family of
-one-object local comparisons over all finite Artin levels,
-ordinary degrees, neutral directions, and thresholds. At sign and stability
-thresholds it compares cyclic Rees \(z\)-modules; at zero modes it compares
-row-generated reduced nearby cycles. These maps must carry the marked row,
-intertwine formal monodromy, preserve the stated Stokes, deck, Artin, and Rees
-data, and identify the entire adjacent row-generated cyclic module with its
-reduced nearby-cycle realization. Primary support is then preserved by
-polynomial functional calculus. Under these assumptions, the
-point-row primary Boolean is birationally invariant and
-\(X\times\mathbf P^m\) is irrational for every smooth cubic threefold \(X\)
-and every \(m\). A rational two-tail counterexample shows why tailwise
-D-finiteness alone does not determine the needed threshold maps.
+Taking `Y = X × P¹` gives a nonrational smooth projective fourfold over `Q`
+for which `Y × A¹` is rational. This is birational rationality after
+affine-line stabilization, not the Zariski cancellation problem for
+isomorphic affine cylinders.
 
-The cubic-specific input is isolated:
+The canonical release files are:
 
-- Cai's displayed cubic matrices are reconstructed to obtain the
-  primitive-sixth indicial roots;
-- a direct Barnes calculation proves that the Gamma point row is nonzero on
-  both primitive-sixth lines;
-- the product and projective-space endpoint calculations are proved in the
-  manuscript and checked by an exact regression artifact.
+- `cubic_stabilization_irrationality.tex` — manuscript source;
+- `cubic_stabilization_irrationality.pdf` — generated manuscript;
+- `.zenodo.json` — deposition metadata;
+- `LICENSE` — CC BY 4.0 license;
+- `flake.nix` and `flake.lock` — pinned standalone build environment;
+- `verification/slice-cover-certificate.json` — exact certificate;
+- `verification/check_slice_cover.py` — exact-arithmetic replay checker;
+- `verification/claim-map.json` and `formal-annotations.tex` — claim and
+  formal-coverage metadata.
 
-The earlier one-wall theorems and the incomplete-Gamma/Fourier countermodels
-remain in the paper. They explain why a chamberwise telescope is insufficient
-and why the common-master construction is needed.
+Build and verify from this directory with:
 
-## Build
+```sh
+make check
+```
 
-Run:
+The replay uses SymPy 1.14.0 and exact arithmetic. It checks the Cox-weight
+matrix and tangent-incidence certificate; the rational quotient, Galois
+descent, and generic-fibre function-field arguments are proved in the text,
+not delegated to the checker. No Lean development formalizes the new theorem
+or its corollaries, and their formal coverage is recorded as `absent`.
 
-    make check
+The quotient proof is constructive: a tangent-section witness determines the
+orbit correction by signed maximal minors and the inverse parametrization by
+the displayed elimination graph. No complexity estimate is claimed.
 
-This executes the paper-owned release-surface and cubic-endpoint checks,
-applies the monorepo TeX spacing lint in the authority repository, and rebuilds
-the manuscript in an isolated directory with the pinned Nix toolchain. The
-fresh deterministic PDF must match the tracked PDF byte for byte, so stale
-auxiliary files cannot conceal a source/PDF mismatch. The gate also fails on
-LaTeX warnings or overfull boxes. After editing manuscript sources, refresh the
-tracked artifact with `make manuscript-update`, then run `make check`. In the
-standalone export, the monorepo-only spacing lint is omitted; the mathematical
-release checks, isolated-build comparison, and warning gate remain.
-
-## License
-
-The manuscript is licensed under CC BY 4.0. Correspondence:
-<tavisrudd@damnsimple.com>.
+The exact boundary between proved, computationally certified, and imported
+claims is recorded in the manuscript annotations and
+`verification/imported-sources.json`. The assigned Zenodo DOI is displayed
+above.

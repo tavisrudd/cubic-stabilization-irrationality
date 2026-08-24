@@ -1,0 +1,82 @@
+{
+  "cor:affine-line": {
+    "cautions": "This is birational rationality after affine-line stabilization, not Zariski cancellation for isomorphic affine cylinders.",
+    "conclusion": "Each displayed cubic yields a nonrational smooth projective fourfold Y for which Y times A1 is rational.",
+    "coverage": "absent",
+    "declarations": [],
+    "digest": "7506b970d79e292705bdc26bdc011a56dc79d1f7d982609efc94a559105927a4",
+    "environment": "corollary",
+    "hypotheses": "X is either displayed cubic threefold and Y is X times P1.",
+    "objects": "The smooth projective fourfold Y and its affine-line stabilization."
+  },
+  "cor:cubics": {
+    "cautions": "This is restricted to the two Tschinkel--Zhang families, not every smooth cubic hypersurface.",
+    "conclusion": "X times P2 is rational over Q for every member of either family.",
+    "coverage": "absent",
+    "declarations": [],
+    "digest": "13b11f6eda759c8c92ec27b45bea35a6bd5d839bee92ee8ddf12f57dfde90fa9",
+    "environment": "corollary",
+    "hypotheses": "r is nonnegative and X is one of the cubics in Tschinkel--Zhang Propositions 5.1 or 5.2.",
+    "objects": "The two explicit families of cubic hypersurfaces."
+  },
+  "cor:moduli": {
+    "cautions": "The finite value is proved only at the two displayed points; the infinite value is a very-general statement.",
+    "conclusion": "The function ell_C is two at the displayed cubic points and infinite at a very general point.",
+    "coverage": "absent",
+    "declarations": [],
+    "digest": "fd1864cbf8ccf02fc3feca35d7eef007f28abd50d153c3cff53c15cf33285050",
+    "environment": "corollary",
+    "hypotheses": "The base field is C and the cubic is either displayed or very general as specified.",
+    "objects": "The level-of-stable-rationality function ell_C on smooth cubic-threefold moduli."
+  },
+  "prop:tangent-section": {
+    "cautions": "The subgroup classification is complete only for the four hereditary-H1 types; no classification of all W(D5) subgroups is claimed.",
+    "conclusion": "A codimension-three tangent linear section exists geometrically and descends on every twist of the four types.",
+    "coverage": "absent",
+    "declarations": [],
+    "digest": "3e8ece42f81742ac18e8ada7001a8b328b30c0d90b8b53a5a923dc4b3e7dcac3",
+    "environment": "proposition",
+    "hypotheses": "The Cox parameters lie on the smooth open and the Galois image has type I0, I1, I2, or I3.",
+    "objects": "The saturated rank-three subtorus, complementary Cox-coordinate subspace, and tangent-frame incidence."
+  },
+  "rem:saturation": {
+    "cautions": "The degree-two artifact belongs to the parameter isogeny, not the Rosenlicht quotient.",
+    "conclusion": "Adjoining the half-sum saturates the cocharacter lattice and removes the projective mu_2 kernel.",
+    "coverage": "absent",
+    "declarations": [],
+    "digest": "493ead3382f13e96659af60cb2500e8bdf4ec6a56bc1bbb99da3a632d5c0c9fc",
+    "environment": "remark",
+    "hypotheses": "The three pairwise-sign cocharacters are used in the last three coordinates.",
+    "objects": "An index-two even-sum cocharacter sublattice and its saturation."
+  },
+  "thm:torus-quotient": {
+    "cautions": "A finite-index set of weight differences would give a finite orbit cover and does not suffice.",
+    "conclusion": "The Rosenlicht quotient Z/T is k-rational.",
+    "coverage": "absent",
+    "declarations": [],
+    "digest": "ecb2bbe1aea6a12e3d51508b4e5503f815cdc7090f24ba800bdbba7190d1c598",
+    "environment": "theorem",
+    "hypotheses": "A generically free projectively linear rank-r torus action, birational generic tangent projection, descended complementary sums of projective weight spaces, an integral basis of weight differences, and a nondegenerate tangent linear section.",
+    "objects": "A projective torus action on a projective variety and its Rosenlicht quotient."
+  },
+  "thm:cubic-level": {
+    "cautions": "The upper bound is for the two displayed cubics; nonrationality after one stabilization imports a separate theorem applying to all smooth complex cubic threefolds.",
+    "conclusion": "For each displayed cubic, the smallest m with X times P^m rational is two over Q and C.",
+    "coverage": "absent",
+    "declarations": [],
+    "digest": "f01f6acaba79c2a8f2f62490f2a973dbd61e61713fe65b3d278c0df5fd1acaf4",
+    "environment": "theorem",
+    "hypotheses": "X is one of the two displayed smooth cubic threefolds.",
+    "objects": "The smallest rational stabilization over Q and after base change to C."
+  },
+  "thm:two-variable": {
+    "cautions": "Universal-torsor geometry and the four-type classification are imported from Tschinkel--Zhang.",
+    "conclusion": "S times A2 and S times P2 are k-rational; this applies to every stably k-rational S.",
+    "coverage": "absent",
+    "declarations": [],
+    "digest": "58121d919f0a6137a6896ef4ff7b3626a429e886672a25b9d129f96c9f7fd393",
+    "environment": "theorem",
+    "hypotheses": "Characteristic zero, S smooth quartic del Pezzo, S(k) nonempty, and geometric Picard lattice stably permutation.",
+    "objects": "A quartic del Pezzo surface and a two-dimensional stabilization."
+  }
+}
