@@ -75,7 +75,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "213ca808d0f67c311ebf160138640ca257bb20b902ecf9fd99324848129b3aba",
+      "sha256": "78d3134798b7cd2517ceb4b68940ff62ce6e4689c58a809e07f276b6be19d587",
       "source_blob": null
     },
     {
@@ -88,22 +88,22 @@
       "source_blob": "bb88eee418866d6949d940c499c4727de602c815"
     },
     {
-      "bytes": 108790,
+      "bytes": 109386,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "5e9ce19ca1bf8cb6a24369ddde58d61df5ce9659b1635f85429843b00a36373f",
-      "source_blob": "092d975c589f32213cb447c81212d5a024acf463"
+      "sha256": "182e3ee1ac39b2e098eba6ad929533b0767668d13e44ca5e798f08c88e864041",
+      "source_blob": "bc840d991c89d449f49b0767bd14d7824ec87a55"
     },
     {
-      "bytes": 32970,
+      "bytes": 33440,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "760354d7c3892e5c42c045fede529b84c01eded1e9a030cd53a101f22a8cd677",
-      "source_blob": "a1ac0e29a8301e28d7dd9f4ea3532b26ddb56cd3"
+      "sha256": "f759516726c193a755b02377353ddf801f64baf24783b2aa3ec331d3a492b738",
+      "source_blob": "a93ec6c7aa4c5ee01d8a5048f5788599b89ea12b"
     },
     {
       "bytes": 567,
@@ -245,5 +245,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "34498ac7fb13d970c5548a069ff053c3ccceccef5650c47babe55a75e511c4df",
   "schema_version": 1,
-  "source_commit": "404eed48d4dea84434204f18b3fc5d738bd0a0a0"
+  "source_commit": "ebf366fd1d6772ae291c60b994bc075e76e7980c"
 }
