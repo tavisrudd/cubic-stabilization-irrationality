@@ -13,13 +13,13 @@
       "source_blob": null
     },
     {
-      "bytes": 2524,
+      "bytes": 2537,
       "mode": "100644",
       "path": ".zenodo.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "113d0e3acdc2cdd6e4f0022e36361cad4a5d6a7734f90872061921269131cc82",
-      "source_blob": "bfde52ebf92c441be8234d9313aeb1367042987c"
+      "sha256": "9ec02ebc4aec5f2feb0779691f6f487357e5dd391a6be38f9d7abedfd99c0bdb",
+      "source_blob": "db65951e6e1a4c6b1db7cabf5e84ccd0e8ff3910"
     },
     {
       "bytes": 470,
@@ -75,35 +75,35 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "78d3134798b7cd2517ceb4b68940ff62ce6e4689c58a809e07f276b6be19d587",
+      "sha256": "88153ec53615c3a22caada067d6fbf97d1db02ba3f61772fe6ccda3e5f100360",
       "source_blob": null
     },
     {
-      "bytes": 6150,
+      "bytes": 6161,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "75aede4536be0adf9d2b905175fbe0865163f4c3b5c3478a0b132374ff674407",
-      "source_blob": "bb88eee418866d6949d940c499c4727de602c815"
+      "sha256": "cd14daaad378e7ab5a1f1135c7961f08935fc776366dad7150188987a9c9f0a6",
+      "source_blob": "29b23eac640a03bd2fea3ec3a7798d85c4a80e0b"
     },
     {
-      "bytes": 109386,
+      "bytes": 109585,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "182e3ee1ac39b2e098eba6ad929533b0767668d13e44ca5e798f08c88e864041",
-      "source_blob": "bc840d991c89d449f49b0767bd14d7824ec87a55"
+      "sha256": "215b3bc6e1fc8997a3bef352f37bbbbf7ec9a5b658e2fdf5fab72e3f15e15f2f",
+      "source_blob": "503eff07364096f5dc9e55def3656b36c186f930"
     },
     {
-      "bytes": 33440,
+      "bytes": 33336,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "f759516726c193a755b02377353ddf801f64baf24783b2aa3ec331d3a492b738",
-      "source_blob": "a93ec6c7aa4c5ee01d8a5048f5788599b89ea12b"
+      "sha256": "a361992ab5adcc98fe41593f319b1afef52a450d3e5d66d1883786ebe2da4db3",
+      "source_blob": "641d866fa0ba6c32cfb426ab178c259f63099e5d"
     },
     {
       "bytes": 567,
@@ -147,8 +147,8 @@
       "path": "verification/check_metadata.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "8553cffb04212e7ebe66b99767e3228277351ad571d4241e6f220b37d90458a6",
-      "source_blob": "5e83a9cc8d08abbc03997a7c8baeae00e579ea17"
+      "sha256": "78810ced0cf6d5dd4b7be924e80e63611ec55faed3afe096ab88b13d3b3464e9",
+      "source_blob": "890fd8179048cb08a8e66bad56ccfb87189b0197"
     },
     {
       "bytes": 8088,
@@ -165,8 +165,8 @@
       "path": "verification/claim-map.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "1aca8ac120c0ef303a1f2c9d88153edf6757f31c7656105892fc4d2370c5a63a",
-      "source_blob": "14cf0a39391c44666337457ab2e1b9d210636d42"
+      "sha256": "63e71795f0d3a4af32a86b9f0d85f1f1ce44eb2280f007dd7d7be1a694999c2d",
+      "source_blob": "285c664d8ef0dd12a583fb406e850819d452dedb"
     },
     {
       "bytes": 26936,
@@ -205,13 +205,13 @@
       "source_blob": "1a96f6bb8616b552e05d3576a9856c5891c4d8dd"
     },
     {
-      "bytes": 6201,
+      "bytes": 6208,
       "mode": "100644",
       "path": "verification/imported-sources.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "f850d056f64b1fe061bf9e32595ba522c382fb629f8539077ff3c5d6c243430e",
-      "source_blob": "9dcff47f77bcef48cdf771389100709f2a1aceba"
+      "sha256": "04cadaeeb1d4ded784a516b6d24b16c49156e7c1a07ad6754a5dbbb8d5bb25bd",
+      "source_blob": "909c5eff3d60cbfd6c6221804ac1fc54fa966d4c"
     },
     {
       "bytes": 5138,
@@ -245,5 +245,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "34498ac7fb13d970c5548a069ff053c3ccceccef5650c47babe55a75e511c4df",
   "schema_version": 1,
-  "source_commit": "ebf366fd1d6772ae291c60b994bc075e76e7980c"
+  "source_commit": "8bcaaeaf5f43fffc7a87bf0367287fb28b1ae3cd"
 }
