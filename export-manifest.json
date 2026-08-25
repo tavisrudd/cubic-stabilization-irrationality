@@ -13,13 +13,13 @@
       "source_blob": null
     },
     {
-      "bytes": 2372,
+      "bytes": 2489,
       "mode": "100644",
       "path": ".zenodo.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "83c75b178cd784e49fd03202ea6800ac8f8d455ccfef175af5c28fc4135d3807",
-      "source_blob": "c499ddba137d039a36b927bb18850ddcb98e16be"
+      "sha256": "f0a62b635f19ae80f245e87188c7d92fd664f343cbf0d43723eebc428071cdfe",
+      "source_blob": "697c0dbed7d485e6bb3b2176ab9165fcab007189"
     },
     {
       "bytes": 470,
@@ -31,7 +31,7 @@
       "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
     },
     {
-      "bytes": 1110,
+      "bytes": 1207,
       "mode": "100644",
       "path": "Makefile",
       "rewrites": [
@@ -61,49 +61,49 @@
         },
         {
           "expected_count": 1,
-          "new": "manuscript: $(SOURCE) formal-annotations.tex\n",
-          "old": "manuscript: $(SOURCE) formal-annotations.tex\n\t$(LINT_PYTHON) ../scripts/lint_tex_spacing.py $(SOURCE)\n",
+          "new": "manuscript: $(SOURCE) formal-annotations.tex verification/slice-cover-values.tex\n",
+          "old": "manuscript: $(SOURCE) formal-annotations.tex verification/slice-cover-values.tex\n\t$(LINT_PYTHON) ../scripts/lint_tex_spacing.py $(SOURCE)\n",
           "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
         }
       ],
       "role": "support",
-      "sha256": "cd909c236f3f3ca85bdd65f71f6d3e45ccb67a0c101709f292993b45bae5a8bd",
-      "source_blob": "b90cda5f6594ddcce0d0f318d9b96029b14d54f2"
+      "sha256": "6e194cb34ea69d9a484ef2e246128336b566873197da060f005e49a7b4c43386",
+      "source_blob": "8e75e2ad6ac098c2cdd65b5ea056f046f1abfcc2"
     },
     {
       "bytes": 314,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "1334ee74f20104bfd231c8a9d6e38c7d5eda99fc7b1d0b8b61a36557cdb5e7a7",
+      "sha256": "7a158404fc70a69fbb4472dd5830503cdd1d5aa5ed067aecd8f8301d3c05fab8",
       "source_blob": null
     },
     {
-      "bytes": 3077,
+      "bytes": 5272,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "40c883cbaa6e03cf4d188021c1e941707b62531741d9d7c85e4e1b59dec2d224",
-      "source_blob": "545baf69249738aac752120150ffb307f5fe10f7"
+      "sha256": "223ccdd4cd378c433c9cf87eccb50913b1dd8ba5263e3fd16302785525ddddd0",
+      "source_blob": "45a30e53ca3bbbcc9391c4f5ac374ba4b83161c7"
     },
     {
-      "bytes": 107629,
+      "bytes": 108250,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "46f8dab11f2da718518a377aef49d45a733dabec1967659410ca478021122846",
-      "source_blob": "58f2758989b3ada41a372b02453da691fa885a48"
+      "sha256": "be5beefe4e7435e5a0717f4cc2f4957b1a52fa2087bfda73819659345769847b",
+      "source_blob": "4458f576df7c11fb3de2e134b1cddd367c5f863b"
     },
     {
-      "bytes": 33801,
+      "bytes": 32217,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "6d2f2c5e16ef2775da0293a6af98a277dc45213c635cf594c3e98862aacd9129",
-      "source_blob": "25e1b0117e78de6b0e990cc2310c15091eb07a62"
+      "sha256": "81ef9a71d27bb7c646c6e38f165ca5b9af84c912886c0d24446931104632b454",
+      "source_blob": "c29bc811648f045f90aa4e9addd81df1eb7ca63c"
     },
     {
       "bytes": 567,
@@ -115,13 +115,13 @@
       "source_blob": "c06115a1e8e270fb2772ce0ef216d75ab95e492f"
     },
     {
-      "bytes": 652,
+      "bytes": 663,
       "mode": "100644",
       "path": "flake.nix",
       "rewrites": [],
       "role": "support",
-      "sha256": "14a858df634ef678b66a6fbe15b1dc9d87b37e198884642a06232440e0977a24",
-      "source_blob": "49b26ae760a7c3b2e6b24aa545d1f8f6df1bd917"
+      "sha256": "2d885f3cc77175ee2f4ec3a7933c6a3bda5176d9dbf05c1017614d427c382cdd",
+      "source_blob": "ec1d8ed1a8f0f0a687add02ba1becd8b7a0a33f5"
     },
     {
       "bytes": 272,
@@ -133,76 +133,85 @@
       "source_blob": "b84d6f34b63f1146275b42a83d37142c55e58ec9"
     },
     {
-      "bytes": 309,
+      "bytes": 411,
       "mode": "100644",
       "path": "verification/SHA256SUMS",
       "rewrites": [],
       "role": "verification",
-      "sha256": "dae0c3dc985d2565aad1976cbf13a1a8b67158a1c7df1aa57dbee2b1419959c8",
-      "source_blob": "7697e8b94474a969054de04f54661d66ef518a33"
+      "sha256": "12efbfb920a2b01867b6ec67b93e884ea11367f92ae39b0abdec2d50693d456d",
+      "source_blob": "e5ea77fc98fdd1808cc6b8e05ae38e4b34857dd4"
     },
     {
-      "bytes": 4893,
+      "bytes": 5961,
       "mode": "100644",
       "path": "verification/check_metadata.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "51111a16710812d39eba9c728b5c80ac8bacb963d56dc26d41cde5ea138e0eb3",
-      "source_blob": "dbeee7a00c54f2da110d1343aba16d925739a748"
+      "sha256": "5e44a9c5f00617903bba7592bd91a11e6f24bf7b7bfc2dab706b509d7ed06850",
+      "source_blob": "8ae98c83d654a95a840a51fd7f7534df2806f97f"
     },
     {
-      "bytes": 5108,
+      "bytes": 5934,
       "mode": "100644",
       "path": "verification/check_slice_cover.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "86de14e0c4bc694493351ded5c357f0acafb1ba672d6bc7785e79b3e47d1eaa2",
-      "source_blob": "05788e267de63e3baa9dd6cf3cc09c0bc6c649b3"
+      "sha256": "da3935eb973f19957e0452c5a59f9bd356edec81a3d1a4b3b998cd5b86c496b7",
+      "source_blob": "d06a048c5e34ba80401a87a35104385c89f6e462"
     },
     {
-      "bytes": 5427,
+      "bytes": 5484,
       "mode": "100644",
       "path": "verification/claim-map.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "a0e4de4c6681860743b3bd16e33adee8f0f32bac327c4aab84450a6d14a20404",
-      "source_blob": "b40969509b0e2ea607f2a0da52a45f20e4cce771"
+      "sha256": "1aca8ac120c0ef303a1f2c9d88153edf6757f31c7656105892fc4d2370c5a63a",
+      "source_blob": "14cf0a39391c44666337457ab2e1b9d210636d42"
     },
     {
-      "bytes": 15317,
+      "bytes": 24770,
       "mode": "100644",
       "path": "verification/derive_slice_cover.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "db88657e23662b5690b4be21578f7a77d50e65714c6f205d79b20c3eeb2aff47",
-      "source_blob": "eedce2fac3f1eda910eef937644fbe34d30fbabd"
+      "sha256": "8bafada558c989832170fdeccab35cdc2cd8dbda3dae931f20733f76199fedbb",
+      "source_blob": "06ac15c1ad48edc273721e940a219d51d9f6fdc4"
     },
     {
-      "bytes": 699,
+      "bytes": 823,
       "mode": "100644",
       "path": "verification/evidence.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "becea0873ca3e95d6fa6add2d82118ddce9751e47a9cf680c02b0a2929285511",
-      "source_blob": "b33dc447b88fdcd62eb166847ac68baf3b3d3fcc"
+      "sha256": "540ca157d082b43f9231504335c18430ab9da75e275ae0ce5d47e05ae3a1e691",
+      "source_blob": "738dbf033d91541f816c7155c52a33bb78d48cc4"
     },
     {
-      "bytes": 5813,
+      "bytes": 5809,
       "mode": "100644",
       "path": "verification/imported-sources.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "ea85217491729666116d63088a9b7dce8f5c92a457abf733941ca45d608e73d1",
-      "source_blob": "1286a781dfce64eb8a8f4759cfa309bc34b500f9"
+      "sha256": "dea853e8d8b6bf247d63f835dc16760c7c4bd135fdcbfcf34f55ab5d5bfc37a9",
+      "source_blob": "f16db2c878f9391783480135ce5da8b9ce4275af"
     },
     {
-      "bytes": 4116,
+      "bytes": 5138,
       "mode": "100644",
       "path": "verification/slice-cover-certificate.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "c3133f06dcff888b348a6dab5db6e819433e0f1f02ccda2511d87f29b7de4e2a",
-      "source_blob": "b98f0d218da7f40b08f07897dc494bb48858a7d5"
+      "sha256": "7b0069c2a2d8ae9d9d7585b0a0939daf684860b58747c14de7ed2ae116eb3483",
+      "source_blob": "ccad2e606a385663531b84432f8bf77eab151439"
+    },
+    {
+      "bytes": 3198,
+      "mode": "100644",
+      "path": "verification/slice-cover-values.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "12db9466bb66620694b29deda09078462b86c305138afbb453fd8b9122091921",
+      "source_blob": "2925d12c2271df1f27db95fd50e7d956ae272372"
     }
   ],
   "github": "tavisrudd/cubic-stabilization-irrationality",
@@ -216,7 +225,7 @@
   "paper_registry_sha256": "a78ad495a4099048d45a5e168a68300030515136b3ec3571e9a031d88b3232ea",
   "release_output_policy": "immutable-source",
   "repository": "cubic-stabilization-irrationality",
-  "repository_map_sha256": "e3eb7c57522d13e1a959e5f8880fa54e7d8794c5646d8fe4a07b51df19b84890",
+  "repository_map_sha256": "34498ac7fb13d970c5548a069ff053c3ccceccef5650c47babe55a75e511c4df",
   "schema_version": 1,
-  "source_commit": "7e9e1f38ff87f11ba4b7a51dbe87723373a67e88"
+  "source_commit": "91f619b28c75b55a1dfb7492efa69238746317eb"
 }
