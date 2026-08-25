@@ -13,13 +13,13 @@
       "source_blob": null
     },
     {
-      "bytes": 2489,
+      "bytes": 2524,
       "mode": "100644",
       "path": ".zenodo.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "9ae134dba287a7bc51ca8dd7e5de2f47a8c60d045825a5de00a87eababcf87f7",
-      "source_blob": "63270fb8260d467fa5c9c3d59a71790b8be76ea4"
+      "sha256": "113d0e3acdc2cdd6e4f0022e36361cad4a5d6a7734f90872061921269131cc82",
+      "source_blob": "bfde52ebf92c441be8234d9313aeb1367042987c"
     },
     {
       "bytes": 470,
@@ -31,7 +31,7 @@
       "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
     },
     {
-      "bytes": 1207,
+      "bytes": 1361,
       "mode": "100644",
       "path": "Makefile",
       "rewrites": [
@@ -67,43 +67,43 @@
         }
       ],
       "role": "support",
-      "sha256": "6e194cb34ea69d9a484ef2e246128336b566873197da060f005e49a7b4c43386",
-      "source_blob": "8e75e2ad6ac098c2cdd65b5ea056f046f1abfcc2"
+      "sha256": "5b06093e4efc3ae98af21e01f060e2bb4f7d951fbc2605d7359985fd33798308",
+      "source_blob": "8d2857c689605fb5b2f48ed424bc49704b16158b"
     },
     {
       "bytes": 314,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "a6544441afd3bc47c906e4b172fefa5e87bf231909e463769c1cc447ed64c639",
+      "sha256": "213ca808d0f67c311ebf160138640ca257bb20b902ecf9fd99324848129b3aba",
       "source_blob": null
     },
     {
-      "bytes": 5346,
+      "bytes": 6150,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "b7fbbf566bf3577ba3355160e093ed771db861c55c33f3818c201be7fcb939c8",
-      "source_blob": "c151f2e93ff5e29ec0c330649d419dff610885c3"
+      "sha256": "75aede4536be0adf9d2b905175fbe0865163f4c3b5c3478a0b132374ff674407",
+      "source_blob": "bb88eee418866d6949d940c499c4727de602c815"
     },
     {
-      "bytes": 108553,
+      "bytes": 108790,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "bc1dc0efc38a48dc429265670116dd7fd8e7732c635e426421455a93a41447a2",
-      "source_blob": "319448a42531c5b966c643a6b67d044fb2ea9369"
+      "sha256": "5e9ce19ca1bf8cb6a24369ddde58d61df5ce9659b1635f85429843b00a36373f",
+      "source_blob": "092d975c589f32213cb447c81212d5a024acf463"
     },
     {
-      "bytes": 32663,
+      "bytes": 32970,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "d5232ab98be2e82fc08aac7972331ad43ff843894a001f5ce7606ab86cee695e",
-      "source_blob": "76e5f9a3eb7747850e3b2c357cf8ec70e30c5eb4"
+      "sha256": "760354d7c3892e5c42c045fede529b84c01eded1e9a030cd53a101f22a8cd677",
+      "source_blob": "a1ac0e29a8301e28d7dd9f4ea3532b26ddb56cd3"
     },
     {
       "bytes": 567,
@@ -133,31 +133,31 @@
       "source_blob": "b84d6f34b63f1146275b42a83d37142c55e58ec9"
     },
     {
-      "bytes": 411,
+      "bytes": 642,
       "mode": "100644",
       "path": "verification/SHA256SUMS",
       "rewrites": [],
       "role": "verification",
-      "sha256": "12efbfb920a2b01867b6ec67b93e884ea11367f92ae39b0abdec2d50693d456d",
-      "source_blob": "e5ea77fc98fdd1808cc6b8e05ae38e4b34857dd4"
+      "sha256": "1c0e5e1926e9481518a98a3ace677a6e6cf3d31e5b2af70a5ea857d18ee1adac",
+      "source_blob": "4519251191840243188d74ca41e0a02fcd378038"
     },
     {
-      "bytes": 6488,
+      "bytes": 6601,
       "mode": "100644",
       "path": "verification/check_metadata.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "e4e405b5feb0b2b184313449ed72cc6ce8d45327c85f06b4ab405e081fe83193",
-      "source_blob": "5a2cbe6ec879cedc6147705ed0a20ec800275583"
+      "sha256": "8553cffb04212e7ebe66b99767e3228277351ad571d4241e6f220b37d90458a6",
+      "source_blob": "5e83a9cc8d08abbc03997a7c8baeae00e579ea17"
     },
     {
-      "bytes": 5934,
+      "bytes": 8088,
       "mode": "100644",
       "path": "verification/check_slice_cover.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "da3935eb973f19957e0452c5a59f9bd356edec81a3d1a4b3b998cd5b86c496b7",
-      "source_blob": "d06a048c5e34ba80401a87a35104385c89f6e462"
+      "sha256": "ef5d5742efeb384432e2505f15b6a2e177320e1b59682ba78c5c18a5d0d5d2df",
+      "source_blob": "e8e0473fbbce9b92771afb3fd06cd3133704abba"
     },
     {
       "bytes": 5484,
@@ -169,22 +169,40 @@
       "source_blob": "14cf0a39391c44666337457ab2e1b9d210636d42"
     },
     {
-      "bytes": 24770,
+      "bytes": 26936,
       "mode": "100644",
       "path": "verification/derive_slice_cover.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "8bafada558c989832170fdeccab35cdc2cd8dbda3dae931f20733f76199fedbb",
-      "source_blob": "06ac15c1ad48edc273721e940a219d51d9f6fdc4"
+      "sha256": "89eee9a9d04cb555e45c8b4f461bbf20ccb6b1d38cfabdad2b8ce67c1ff42373",
+      "source_blob": "647b96c11b3bada1dfa56068509437012c780655"
     },
     {
-      "bytes": 823,
+      "bytes": 1033,
       "mode": "100644",
       "path": "verification/evidence.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "540ca157d082b43f9231504335c18430ab9da75e275ae0ce5d47e05ae3a1e691",
-      "source_blob": "738dbf033d91541f816c7155c52a33bb78d48cc4"
+      "sha256": "f6798218c4fb07003434192c1a1443281bb406fe9924ec8686dd08f392c38cf9",
+      "source_blob": "d01c28895c27708f3c76c5123ed598576cc87601"
+    },
+    {
+      "bytes": 3813,
+      "mode": "100644",
+      "path": "verification/generate_groebner_empty_certificates.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "12b78ff69c930a5b629e57b973a324b1221c0029ce5159aa1743459ab63f496d",
+      "source_blob": "bcab85c36ef79b9eaddce31d00e5824cccfbff19"
+    },
+    {
+      "bytes": 92261,
+      "mode": "100644",
+      "path": "verification/groebner-empty-certificates.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "9c0cf99e650a3db08d4adc926b893ddf13d5473a912721abd2a6efbc862472f0",
+      "source_blob": "1a96f6bb8616b552e05d3576a9856c5891c4d8dd"
     },
     {
       "bytes": 6201,
@@ -192,8 +210,8 @@
       "path": "verification/imported-sources.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "3f0a322172d3cbac4907780654a981b5ea2bb1872f8770f5c2342cf3a134bd6c",
-      "source_blob": "688a5125cd48f9e05384cd35be24bbb875e0df5b"
+      "sha256": "f850d056f64b1fe061bf9e32595ba522c382fb629f8539077ff3c5d6c243430e",
+      "source_blob": "9dcff47f77bcef48cdf771389100709f2a1aceba"
     },
     {
       "bytes": 5138,
@@ -227,5 +245,5 @@
   "repository": "cubic-stabilization-irrationality",
   "repository_map_sha256": "34498ac7fb13d970c5548a069ff053c3ccceccef5650c47babe55a75e511c4df",
   "schema_version": 1,
-  "source_commit": "6f095336c112284cb6aa405e81fd5c6211e320bd"
+  "source_commit": "404eed48d4dea84434204f18b3fc5d738bd0a0a0"
 }
