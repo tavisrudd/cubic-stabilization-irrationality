@@ -15,6 +15,8 @@ all: verify manuscript
 check: verify manuscript warnings
 
 verify:
+	$(PYTHON) verification/derive_slice_cover.py \
+		--check-certificate verification/slice-cover-certificate.json
 	$(PYTHON) verification/check_slice_cover.py \
 		--check-certificate verification/slice-cover-certificate.json
 	$(LINT_PYTHON) verification/check_metadata.py
