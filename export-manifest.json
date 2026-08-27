@@ -1,5 +1,5 @@
 {
-  "content_sha256": "1c73b2f6bf73eddc18112955de1fb63a26c4b0a2c5309b5944dde236824963fa",
+  "content_sha256": "de59ba1d5fbb5cf5939ea4d96a1b151aaf21c9fce459131fcb39e204ba3fcd4f",
   "excluded_path_count": 0,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -75,17 +75,17 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "cfa4fcaf83ede5617beb2d8dff01ae48ba6ae316f5559bb84c35846541046183",
+      "sha256": "44467b7e8a8540a84930eeffc762a8854435d1aac4ef1f2aa923f80b4886c636",
       "source_blob": null
     },
     {
-      "bytes": 6439,
+      "bytes": 6571,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "d9d576e9fbf954bf1972c42db71dcd773fb7f671c2aa6c2d0d83ba39033afc76",
-      "source_blob": "19d42740b80b5c9c5c8515e6cfcac35534b6c33d"
+      "sha256": "e2b36de65c7d277a3e76a9d48f19689bfc7d6ce2f75bf9f905ccc4be08d5288e",
+      "source_blob": "3002a63cb1f8be179caddb1d047bfff0ac659b33"
     },
     {
       "bytes": 4243,
@@ -97,22 +97,22 @@
       "source_blob": "f8e068969a5b558777e84dec9970926b0366dcfb"
     },
     {
-      "bytes": 130405,
+      "bytes": 130500,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "2142895222b3cc2738188c309406b32e2afb005dbb6e549b3025f1c2e6185221",
-      "source_blob": "7b1ba719c2bdec92d06cfde06db9fa43675ca9eb"
+      "sha256": "a90223898c0f8f929187e6d9ecc22424506e21c94660e1e0389b53f9b6cd46cd",
+      "source_blob": "9ec4bdd6bdf41937da32bd49079181e4bd01f8ae"
     },
     {
-      "bytes": 39040,
+      "bytes": 39113,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "77c5e8dd99e4cd43d861df0ce3ef8307579333ecc5f3662a3400e3b8a4b2f73b",
-      "source_blob": "6935060e29582119f74fee96777cd9463e5cf666"
+      "sha256": "099134422f459f4412e945445abee3c496fc5ffa2e6ced789f864284d95934c9",
+      "source_blob": "bfb698cef465382f826cb482b9884905ab1adeca"
     },
     {
       "bytes": 567,
