@@ -4,6 +4,8 @@
 
 [**Open the manuscript (PDF) →**](cubic_stabilization_irrationality.pdf)
 
+Referees may also use the focused [referee guide](REVIEWER_GUIDE.md).
+
 The theorem that every smooth complex cubic threefold remains irrational
 after multiplication by `P¹` is sharp. For each of two displayed smooth cubic
 threefolds `X/Q`, this paper proves
@@ -15,7 +17,7 @@ ell_Q(X) = ell_C(X_C) = 2.
 Equivalently, `X_C × P¹` is irrational while `X × P²` is rational over `Q`.
 The lower bound is the separately cited one-stabilization theorem for every
 smooth complex cubic threefold, pinned here to
-[version 0.15.0](https://doi.org/10.5281/zenodo.22088961); this paper proves
+[version 0.16.0](https://doi.org/10.5281/zenodo.22132303); this paper proves
 the upper bound.
 
 ## Main results and consequences
@@ -27,9 +29,9 @@ the upper bound.
   Pezzo surface.
 - The proof gives a reusable rational-quotient criterion for a generically
   free torus action on a variety with birational generic tangent projection.
-  A saturated unimodular weight window cuts a rational section of the general
-  orbit, and a tangent-projection open identifies that section with projective
-  space.
+  The differences among selected weight spaces form a basis of the character
+  lattice; a tangent linear section then meets a general orbit once and is
+  identified with projective space by tangent projection.
 - For both Tschinkel–Zhang series `X_{j,r}` of smooth cubic hypersurfaces,
   `X_{j,r} × P²` is rational over `Q` for every `r ≥ 0` and `j ∈ {1,3}`.
   Their stable-rationality conclusions therefore hold with a uniform `P²`
@@ -38,8 +40,8 @@ the upper bound.
   `Y = X × P¹` is nonrational even over `C`, while `Y × A¹` is rational over
   `Q`. This answers the affine-line stabilization question raised by
   Tschinkel and Zhang.
-- On the moduli space of smooth complex cubic threefolds, the stabilization
-  level is two on the classes represented by the displayed examples and
+- On the moduli space of smooth complex cubic threefolds,
+  `ell_C((X_j)_C) = 2` for `j in {1,3}`, while the stabilization level is
   infinite at a very general point.
 
 The paper does not claim that every smooth cubic threefold has finite
@@ -60,12 +62,13 @@ The exact-arithmetic generator
 starts from the transcribed type-`I₃` matrices and twenty Cox quadrics. It
 reconstructs the saturated rank-three lattice, Cox weights, residual rank-two
 quotient, tangent Jacobian, four symbolic evaluation determinants, and the
-smooth-moduli witness cover. It also constructs the evaluation-kernel slice
-through the orbit-test point. For each of the six empty localized branches,
+four-open cover of the smooth parameter locus. It also constructs the linear
+section defined by the kernel of evaluation at the point \(x\). For each of
+the six empty localized cases,
 [`verification/groebner-empty-certificates.json`](verification/groebner-empty-certificates.json)
-retains an exact identity expressing a nonzero constant in the localized
-branch ideal. The generator renders all computation-derived values printed in
-the manuscript into the checked
+retains an exact identity expressing a nonzero constant in the corresponding
+localized ideal. The generator renders all computation-derived values printed
+in the manuscript into the checked
 [`verification/slice-cover-values.tex`](verification/slice-cover-values.tex)
 artifact. A second program,
 [`verification/check_slice_cover.py`](verification/check_slice_cover.py),
@@ -92,8 +95,8 @@ This command reconstructs and independently checks the exact certificate,
 validates the claim and source ledgers, performs a deterministic manuscript
 build, and rejects TeX warnings or stale metadata.
 
-The retained empty-branch identities can be regenerated independently with
-Singular 4.4.1 and then rechecked by the full gate:
+The retained identities for the empty localized cases can be regenerated
+independently with Singular 4.4.1 and then rechecked by the full gate:
 
 ```text
 nix shell nixpkgs#singular -c uv run --with sympy==1.14.0 python3 \
@@ -105,14 +108,15 @@ nix shell nixpkgs#singular -c uv run --with sympy==1.14.0 python3 \
 
 - `cubic_stabilization_irrationality.tex` — manuscript source;
 - `cubic_stabilization_irrationality.pdf` — generated manuscript;
+- `REVIEWER_GUIDE.md` — a referee's route through the proof and evidence;
 - `formal-annotations.tex` — nonprinting claim annotations;
 - `verification/derive_slice_cover.py` — exact reconstruction program;
 - `verification/generate_groebner_empty_certificates.py` — optional Singular
-  regeneration of the retained empty-branch identities;
+  regeneration of the retained identities for the empty localized cases;
 - `verification/check_slice_cover.py` — independent consequence checker;
 - `verification/slice-cover-certificate.json` — canonical exact certificate;
 - `verification/groebner-empty-certificates.json` — retained exact identities
-  for the six empty localized branches;
+  for the six empty localized cases;
 - `verification/slice-cover-values.tex` — generated, checked manuscript values;
 - `verification/claim-map.json` and `verification/imported-sources.json` —
   theorem coverage and imported-source ledgers;

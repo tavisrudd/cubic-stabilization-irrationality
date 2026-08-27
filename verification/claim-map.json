@@ -20,24 +20,24 @@
     "objects": "The two explicit series of cubic hypersurfaces."
   },
   "cor:moduli": {
-    "cautions": "The finite value is proved only on the isomorphism classes represented by the displayed examples; the infinite value is a very-general statement.",
+    "cautions": "The finite value is proved only for X_1 and X_3; the infinite value is a very-general statement.",
     "conclusion": "The function ell_C is two on the displayed cubic examples and infinite at a very general point.",
     "coverage": "absent",
     "declarations": [],
-    "digest": "3727875ecc1ed80a7a1d328edef9da78abf2da1ee12059ddf763f10287308ea4",
+    "digest": "77d9f5d9983709f282007f09f342a57421a1bdf175c32176565740ed1fd62184",
     "environment": "corollary",
     "hypotheses": "The base field is C and the cubic is either displayed or very general as specified.",
     "objects": "The level-of-stable-rationality function ell_C on smooth cubic-threefold moduli."
   },
   "prop:tangent-section": {
     "cautions": "The subgroup classification is complete only for the four hereditary-H1 types; no classification of all W(D5) subgroups is claimed.",
-    "conclusion": "A codimension-three tangent linear section and an orbit-test point on its quotient component and in the tangent-projection isomorphism open exist geometrically, and descend for quartic del Pezzo surfaces with a rational point in each of the four types.",
+    "conclusion": "Geometrically, there is a codimension-three tangent linear section containing a point x on the quotient component where tangent projection is an isomorphism. For each of the four types, the points and the section descend when the surface has a rational point.",
     "coverage": "absent",
     "declarations": [],
-    "digest": "ec93a04cb21cea643b7a7bacb83d6be2352727f886fa7e5b6c7984a75e1e09e8",
+    "digest": "3185c31ca3de7f92a618efd2f7122a616a9a4b5267132ac29bcc6c8fb3663667",
     "environment": "proposition",
     "hypotheses": "The Cox parameters lie on the smooth open; for ground-field descent the quartic del Pezzo surface has a rational point and the Galois image has type I0, I1, I2, or I3.",
-    "objects": "The saturated rank-three subtorus, complementary Cox-coordinate subspace, and tangent-frame incidence."
+    "objects": "The saturated rank-three subtorus, complementary Cox-coordinate subspace, and the incidence conditions defining the tangent section."
   },
   "rem:saturation": {
     "cautions": "The degree-two artifact belongs to the parameter isogeny, not the Rosenlicht quotient.",
@@ -54,9 +54,9 @@
     "conclusion": "The Rosenlicht quotient Z/T is k-rational.",
     "coverage": "absent",
     "declarations": [],
-    "digest": "3fc834a9aebd64d459871a16f471587c1e071888791265ffd8c0500a76fbdbcc",
+    "digest": "bcb3a41919ba12725a565f17401d54aca428bf3528e10cd126c4d79eea9e7bbd",
     "environment": "theorem",
-    "hypotheses": "A generically free projectively linear rank-r torus action, a rational point in the birational tangent-projection locus, descended complementary sums of projective weight spaces, an integral basis of weight differences, and a nondegenerate tangent linear section whose orbit-section component meets the tangent-projection isomorphism open.",
+    "hypotheses": "A generically free projectively linear rank-r torus action, a rational point in the birational tangent-projection locus, descended complementary sums of projective weight spaces, an integral basis of weight differences, and a nondegenerate tangent linear section whose quotient component meets the tangent-projection isomorphism open.",
     "objects": "A projective torus action on a projective variety and its Rosenlicht quotient."
   },
   "thm:cubic-level": {

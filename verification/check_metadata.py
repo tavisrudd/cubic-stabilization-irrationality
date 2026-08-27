@@ -46,7 +46,7 @@ assert zenodo["creators"] == [{
 }]
 assert {item["identifier"] for item in zenodo["related_identifiers"]} == {
     "https://doi.org/10.48550/arXiv.2608.20029",
-    "https://doi.org/10.5281/zenodo.22088961",
+    "https://doi.org/10.5281/zenodo.22132303",
     "https://doi.org/10.48550/arXiv.2507.15704",
 }
 assert "cubic threefolds" in zenodo["keywords"]
@@ -57,6 +57,7 @@ assert "(cubic_stabilization_irrationality.pdf)" in readme
 for relative in (
     "cubic_stabilization_irrationality.tex",
     "cubic_stabilization_irrationality.pdf",
+    "REVIEWER_GUIDE.md",
     "LICENSE",
     "flake.nix",
     "flake.lock",
@@ -71,10 +72,10 @@ for relative in (
 assert text.count(r"\input{verification/slice-cover-values}") == 1
 normalized_tex = " ".join(text.split())
 placed_artifacts = (
-    r"is saturated and Galois stable. The two generators act on this basis by \[ \IThreeActionOne, \qquad \IThreeActionTwo. \]",
-    r"Four blocks of Cox generators have the following projective \(T_3\)-weights: \begin{center} \IThreeWeightTable \end{center}",
+    r"is saturated and Galois stable. The two displayed generators of the type-\(I_3\) Galois image act on this basis by \[ \IThreeActionOne, \qquad \IThreeActionTwo. \]",
+    r"Four groups of Cox generators span weight spaces with the following projective \(T_3\)-weights: \begin{center} \IThreeWeightTable \end{center}",
     r"B=\PP\langle\IThreeBoundaryGenerators\rangle.",
-    r"The following exact choices are used; \(e=(e_1,\ldots,e_5)\) and \(z'\) specify the orbit-test point at which the evaluation matrix is tested. \begin{center} \SliceWitnessTable \end{center}",
+    r"The following exact choices are used; \(e=(e_1,\ldots,e_5)\) and \(z'\) specify the point \(x\) used to evaluate the matrix. \begin{center} \SliceWitnessTable \end{center}",
     r"After discarding nonzero rational factors, the four evaluation determinants are \SliceDeterminants and the corresponding smoothness minors are \SliceMinors",
     r"A lexicographic Gr\"obner calculation in \(\mathbf Q[a,b,h]/(h\Delta-1)\) gives \SliceCoverArithmetic Thus \(D_4M_4\ne0\)",
 )

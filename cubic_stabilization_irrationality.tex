@@ -58,6 +58,14 @@ point; algebraic torus; rationality after affine-line stabilization.
 
 \section{Introduction and main results}
 
+Tschinkel and Zhang constructed explicit stably rational smooth cubic
+threefolds over \(\mathbf Q\) \cite[Theorem~1.3]{TZ}.  On the other hand, the
+one-stabilization theorem shows that every smooth complex cubic threefold
+remains irrational after multiplication by \(\PP^1\)
+\cite[Theorem~1.1]{RuddM1}.  Thus at least two stabilizing variables are
+needed for the examples of Tschinkel and Zhang.  We prove that this lower
+bound is attained by two of their examples.
+
 For a projective variety \(V/k\), put
 \[
  \ell_k(V)=\min\{m\geq0:V\times\A^m\text{ is }k\text{-rational}\}.
@@ -66,14 +74,8 @@ If the set is empty, put \(\ell_k(V)=\infty\).  Since \(\A^m\) and
 \(\PP^m\) are birational, either factor gives the same invariant.  This is
 the level of stable rationality considered by Tschinkel and Zhang
 \cite[p.~13]{TZ}.
-
-By the one-stabilization theorem \cite[Theorem~1.1]{RuddM1}, every smooth
-complex cubic threefold \(X\) satisfies \(\ell_{\C}(X)\geq2\).  Tschinkel and
-Zhang constructed explicit smooth cubic threefolds over \(\mathbf Q\) that
-are stably rational \cite[Theorem~1.3]{TZ}.  Their levels are finite, and
-rationality after base change gives
-\(\ell_{\mathbf Q}(X)\geq\ell_{\C}(X_{\C})\geq2\).  We prove equality for
-two of these threefolds.
+Rationality is preserved by extension of the ground field, so
+\(\ell_{\mathbf Q}(V)\geq\ell_{\C}(V_{\C})\) for \(V/\mathbf Q\).
 
 Consider the smooth cubic threefolds
 \begin{align}
@@ -99,6 +101,9 @@ Equivalently, \((X_j)_{\C}\times\PP^1\) is irrational, whereas
 The following surface theorem supplies the upper bound in
 Theorem~\ref{thm:cubic-level}.
 
+Recall that a Galois lattice \(M\) is stably permutation if
+\(M\oplus P\simeq P'\) for some permutation Galois lattices \(P\) and \(P'\).
+
 \begin{theorem}[Two-dimensional stabilization]
 \label{thm:two-variable}
 \coverage{absent}%
@@ -115,8 +120,15 @@ are \(k\)-rational.  In particular, this holds for every stably
 \(k\)-rational smooth quartic del Pezzo surface.
 \end{theorem}
 
-From \cite{TZ} we use the Cox model, tangent-projection theorem, Galois
-classification, and generic splitting of the universal torsor.  We supply a
+The use of universal torsors to prove stable rationality goes back to
+Beauville, Colliot-Th\'el\`ene, Sansuc, and Swinnerton-Dyer
+\cite{BCTSSD}.  Tschinkel and Zhang prove the rationality of universal torsors
+over quartic del Pezzo surfaces and classify the four minimal Galois types
+relevant to stable rationality.  We use their Cox model and its
+one-apparent-double-point property, Galois classification, and generic
+splitting of the universal torsor \cite{TZ}.  The standard tangent-projection
+result for varieties with one apparent double point is due to Ciliberto,
+Mella, and Russo \cite[Corollary~4.2]{CMR}.  Our additional input is a
 rank-three quotient of the projective Cox model.
 
 When \(S(k)\ne\varnothing\), the hypothesis on \(\Pic(S_{\bar k})\) is
@@ -125,8 +137,10 @@ rationality implies this condition \cite[Theorem~2.2]{Manin1966};
 \cite[Proposition~4.1 and Lemma~4.2]{TZ} identify the remaining equivalent
 conditions.  We prove that condition~(1) implies the stronger conclusion
 that \(S\times\A^2\) is rational.  The stable-permutation resolution in
-\cite[p.~13]{TZ} gives a uniform bound of eleven variables; the quotient
-construction gives two.
+\cite[p.~13]{TZ} gives a uniform bound of eleven variables.  For type
+\(I_0\), a two-variable bound was already proved by Shepherd-Barron
+\cite{ShepherdBarron}; see also \cite[Remark~4.4]{TZ}.  The quotient
+construction below gives the two-variable bound uniformly for all four types.
 
 For \(r\geq0\), let \(X_{j,r}\subset\PP^{r+4}_{\mathbf Q}\) be obtained
 from equation \eqref{eq:cubic-one} or \eqref{eq:cubic-three} by adding
@@ -166,14 +180,14 @@ cylinders.
 \coverage{absent}%
 \uses{thm:cubic-level}%
 \imports{egfs-very-general-cubic}%
-On the moduli space of smooth complex cubic threefolds, \(\ell_{\C}\) is
-equal to two on every isomorphism class represented by \(X_1\) or \(X_3\),
-and is infinite at a very general point.
+On the moduli space of smooth complex cubic threefolds,
+\(\ell_{\C}((X_j)_{\C})=2\) for \(j\in\{1,3\}\), whereas
+\(\ell_{\C}\) is infinite at a very general point.
 \end{corollary}
 
 Here is the proof of the surface theorem.  Let \(Z\) be the projective Cox
 model of \(S\).  The rank-five torus \(T_0\) acting on \(Z\) contains a
-saturated rank-three subtorus \(T_3\).  Four of its weight blocks form a
+saturated rank-three subtorus \(T_3\).  Four of its weight spaces form a
 Galois-stable set, and their weight differences form a lattice basis.  A
 codimension-three tangent section meets a general \(T_3\)-orbit once, so
 tangent projection identifies \(Z/T_3\) birationally with \(\PP^4\).
@@ -188,6 +202,14 @@ Section~4 we deduce the rationality statements.
 
 \section{A criterion for rational torus quotients}
 
+The criterion below turns a linear section into a rational quotient.  Choose
+\(r+1\) weight spaces whose weight differences form a basis of the character
+lattice.  Signed maximal minors then give the unique translate of a general
+torus orbit that lies in a suitable codimension-\(r\) linear section.  If the
+section contains the centre of a birational tangent projection, that
+projection parametrizes the relevant component of the section, and hence the
+quotient.
+
 Let \(Z\subset\PP(V)\) be a geometrically integral \(n\)-fold over an
 infinite field \(k\).  At a smooth point \(p\in Z(k)\), write
 \begin{equation}
@@ -196,7 +218,8 @@ infinite field \(k\).  At a smooth point \(p\in Z(k)\), write
 \end{equation}
 for projection from the embedded tangent space; the hat denotes the affine
 cone.  In the application, \(Z\subset\PP^{2n+1}\) has one apparent double
-point, and \(\pi_p\) is birational for general \(p\) by
+point.  Over an algebraically closed field, its tangent projection is
+birational by \cite[Corollary~4.2]{CMR}; the form over \(k\) used here is
 \cite[Theorem~2.4]{TZ}.
 
 \begin{theorem}[A quotient criterion]
@@ -227,8 +250,8 @@ matrix
  A(x)_{ij}=\lambda_i(x_j),\qquad x_j\in V_{w_j},
  \label{eq:coefficient-matrix}
 \end{equation}
-has rank \(r\) and all \(r+1\) maximal minors nonzero.  Then the
-Rosenlicht quotient \(Z/T\) is \(k\)-rational.
+has rank \(r\) and all \(r+1\) maximal minors nonzero.  Then the Rosenlicht
+quotient \(Z/T\), whose function field is \(k(Z)^T\), is \(k\)-rational.
 \end{theorem}
 
 \begin{proof}
@@ -325,7 +348,7 @@ The proof is constructive once equations for \(Z\), a tangent point, and the
 linear forms \(\lambda_i\) are given.  The signed minors in
 \eqref{eq:signed-minors} compute the orbit correction, and
 \eqref{eq:inverse-graph} recovers the inverse parametrization by elimination.
-Thus a tangent-section witness produces explicit rational maps in either
+Thus such a tangent section produces explicit rational maps in either
 direction.  No estimate for the complexity of that elimination is asserted.
 
 \section{The rank-three subtorus of the projective Cox model}
@@ -352,19 +375,22 @@ image, the sublattice
  N_3=\Z e_3\oplus\Z e_4\oplus\Z e_5\subset X_*(T_{0,\bar k})
  \label{eq:rank-three-lattice}
 \end{equation}
-is saturated and Galois stable.  The two generators act on this basis by
+is saturated and Galois stable.  The two displayed generators of the
+type-\(I_3\) Galois image act on this basis by
 \[
  \IThreeActionOne,
  \qquad
  \IThreeActionTwo.
 \]
 Let \(T_3\subset T_0\) be the corresponding rank-three subtorus.  Four
-blocks of Cox generators have the following projective \(T_3\)-weights:
+groups of Cox generators span weight spaces with the following projective
+\(T_3\)-weights:
 \begin{center}
 \IThreeWeightTable
 \end{center}
-The four blocks form a Galois-stable set, but they are not individually
-Galois stable.  On their displayed weights, the first generator acts by
+These four weight spaces form a Galois-stable set, but they are not
+individually Galois stable.  On their weights, the first displayed generator
+acts by
 \[
  (011\;111)(101\;110),
 \]
@@ -377,12 +403,12 @@ the Galois-stable subspace
  \label{eq:boundary-subspace}
 \end{equation}
 The determinant of the three weight differences from \((0,1,1)\) is one.
-Consequently the direct sum of the four selected blocks and the affine cone
-over \(B\) are complementary subspaces defined over the ground field, as
+Consequently the direct sum of the four selected weight spaces and the
+affine cone over \(B\) are complementary subspaces defined over the ground field, as
 required in Theorem~\ref{thm:torus-quotient}.  On the open where the four
-selected block components are nonzero, a projective stabilizer fixes their
-three ratios.  The three weight differences form a basis, so that stabilizer
-is trivial.  In particular, the \(T_3\)-action is generically free.
+selected weight-space components are nonzero, a projective stabilizer fixes
+their three ratios.  The three weight differences form a basis, so that
+stabilizer is trivial.  In particular, the \(T_3\)-action is generically free.
 
 \begin{remark}[Saturation and the projective kernel]
 \label{rem:saturation}
@@ -410,9 +436,10 @@ Theorem~\ref{thm:torus-quotient}.
 \uses{thm:torus-quotient}%
 \imports{tz-cox-model,tz-torsor-splitting,tz-type-classification}%
 \evidence{quartic-del-pezzo-slice-cover}%
-For a smooth geometric quartic del Pezzo Cox model, there exist a general
-tangent point \(p\), an orbit-test point \(x\), and a codimension-three
-linear subspace \(\Lambda\supset\langle T_pZ,B\rangle\) such that
+Over an algebraically closed field, let \(Z\) be the projective Cox model of
+a smooth quartic del Pezzo surface.  There exist a general tangent point
+\(p\), a point \(x\), and a codimension-three linear subspace
+\(\Lambda\supset\langle T_pZ,B\rangle\) such that
 \(x\in\Lambda\cap U_p\) and the maximal-minor condition of
 Theorem~\ref{thm:torus-quotient} holds at \(x\) for \(T_3\).  If \(Z\) is
 the projective Cox model of a smooth quartic del Pezzo surface \(S/k\) with
@@ -430,9 +457,9 @@ Use the standard blowup points
 \end{equation}
 For a tangent point with auxiliary coordinates \(z=(z_1,z_2,z_3)\), the
 space of tangent hyperplanes containing \(B\) has dimension four.  Evaluation
-on the four selected blocks of Cox generators gives a \(4\)-by-\(4\) matrix.
+on the four selected weight spaces gives a \(4\)-by-\(4\) matrix.
 The following exact choices are used; \(e=(e_1,\ldots,e_5)\) and \(z'\)
-specify the orbit-test point at which the evaluation matrix is tested.
+specify the point \(x\) used to evaluate the matrix.
 \begin{center}
 \SliceWitnessTable
 \end{center}
@@ -440,23 +467,23 @@ specify the orbit-test point at which the evaluation matrix is tested.
 Let \(D_i\) be the determinant of this evaluation matrix, and let \(M_i\)
 be the fixed \(8\)-by-\(8\) Jacobian minor at the same tangent point.  After
 discarding nonzero rational factors, their numerators are recorded in
-Appendix~\ref{app:slice-certificate}.  Witness \(i\) is valid precisely on
+Appendix~\ref{app:slice-certificate}.  Choice \(i\) works precisely on
 the open \(D_iM_i\ne0\).  The appendix proves, by eight localized cases and
 one explicit B\'ezout identity, that
 \begin{equation}
  \bigcup_{i=1}^4\{D_iM_i\ne0\}=\{\Delta\ne0\}.
  \label{eq:witness-cover}
 \end{equation}
-Thus every smooth geometric Cox model has a witness for which the tangent
-point is smooth and the four-block evaluation map is an isomorphism at the
-orbit-test point.  Invertibility is open in the pair of points.  Since the
+Thus, for every smooth Cox model over an algebraically closed field, one of
+the four choices has a smooth tangent point and an evaluation map that is an
+isomorphism at \(x\).  Invertibility is open in the pair of points.  Since the
 projective Cox model is geometrically integral, this nonempty open meets the
 open where \(p\) is general for tangent projection and, for that \(p\), the
 open \(U_p\) on which \(\pi_p\) is an isomorphism.  We may also require that
 the \(T_3\)-action be free at \(x\).
 
 Let \(H_p\) be the four-dimensional space of tangent hyperplanes containing
-\(B\).  Evaluation identifies \(H_p\) with the four selected block values at
+\(B\).  Evaluation identifies \(H_p\) with the four selected weight-space components at
 \(x\).  Hyperplanes in \(H_p\) that vanish at \(x\) form a
 three-dimensional subspace; choose a basis
 \(\lambda_1,\lambda_2,\lambda_3\) and let \(\Lambda\) be their common zero
@@ -465,23 +492,25 @@ three rows span the hyperplane \(u_0+u_1+u_2+u_3=0\), so their four maximal
 minors are all nonzero.  Thus the point satisfying the minor condition is
 the same point that lies in the tangent-projection isomorphism open.
 
-It remains to descend a good triple.  Fix a twist of one of the four types.
+It remains to obtain \(p\), \(x\), and \(\Lambda\) over the ground field.
+Fix a twist of one of the four types.
 Because \(T_3\) and \(B\) are Galois stable, the preceding conditions define
-a nonempty Galois-invariant open in the product of the tangent-point and
-orbit-test loci.  Its projection to the tangent-point factor is dense
-constructible and therefore contains a nonempty open.
+a nonempty Galois-invariant open in the product of the parameter spaces for
+\(p\) and \(x\).  Its projection to the \(p\)-factor is dense constructible
+and therefore contains a nonempty open.
 
 Corollary~3.5 of \cite{TZ} supplies the universal torsor whose fibre over a
 fixed point of \(S(k)\) is trivial.  Its \(k\)-points are Zariski dense by
 \cite[Lemma~2.1]{TZ}, and the same holds in the projective Cox model.  Hence
-the tangent-point open has a \(k\)-point.  At that point, density again
-supplies a \(k\)-rational orbit-test point in the corresponding
-nonempty open.  The kernel of evaluation at that point is a
-three-dimensional \(k\)-space, so a \(k\)-basis gives \(\Lambda\).  No
-individual split-coordinate witness is asserted to descend.
+this nonempty open in the parameter space for \(p\) has a \(k\)-point.  At
+that point, Zariski density supplies a \(k\)-rational point \(x\) in the
+corresponding nonempty open.
+The kernel of evaluation at \(x\) is a
+three-dimensional \(k\)-space, so a \(k\)-basis gives \(\Lambda\).  We do not
+claim that any one of the four displayed coordinate choices descends.
 
 For type \(I_3\), stability of \(N_3\), \(B\), and the set of four selected
-Cox blocks is checked on the two displayed generators.  Up to conjugacy in
+Cox weight spaces is checked on the two displayed generators.  Up to conjugacy in
 \(W(D_5)\), the groups of types \(I_0,I_1,I_2\) are subgroups of the group of
 type \(I_3\) \cite[Lemma~4.2]{TZ}.  Restriction and a change of marking
 preserve the same data.  This exhausts the four Galois images allowed by the
@@ -510,14 +539,16 @@ in Proposition~\ref{prop:tangent-section}.  Lemma~3.2 and Theorem~2.4 of
 By \cite[Corollary~3.5]{TZ}, let \(\mathcal T\to S\) be a universal torsor
 under the N\'eron--Severi torus \(T\), chosen to have a \(k\)-point above a
 fixed point of \(S(k)\).
-The stable-permutation hypothesis and Hilbert's Theorem~90 give
+The stable-permutation identity for \(X^*(T_{\bar k})\) expresses \(T\), after
+multiplication by a quasi-trivial torus, as another quasi-trivial torus.
+Hilbert's Theorem~90 therefore gives
 \begin{equation}
  H^1(F,T)=0\quad\text{for every field extension }F/k
  \label{eq:H1-vanishing}
 \end{equation}
 by \cite[Remark~2.2]{TZ}.  Thus the generic fibre over \(k(S)\) has a point.
-Translation by the resulting rational section \(\sigma\) defines the
-\(T\)-equivariant birational map
+Equivalently, the torsor has a rational section \(\sigma\).  Translation by
+\(\sigma\) defines the \(T\)-equivariant birational map
 \begin{equation}
  S\times T\dashrightarrow\mathcal T,
  \qquad (s,t)\longmapsto\sigma(s)t.
@@ -586,7 +617,7 @@ specialization assertion is used.
 \end{proof}
 
 \begin{proof}[Proof of Theorem~\ref{thm:cubic-level}]
-Version~0.15.0 of the one-stabilization manuscript proves that
+The one-stabilization theorem proves that
 \(X\times\PP^1\) is irrational for every smooth complex cubic threefold
 \(X\) \cite[Theorem~1.1]{RuddM1}.  It applies to
 \((X_j)_{\mathbf C}\).  Therefore
@@ -612,8 +643,8 @@ is purely transcendental by Corollary~\ref{cor:cubics}.  Equivalently,
 \end{proof}
 
 \begin{proof}[Proof of Corollary~\ref{cor:moduli}]
-Theorem~\ref{thm:cubic-level} gives the value two on each isomorphism class
-represented by the displayed examples.  Engel, de Gaay Fortman, and
+Theorem~\ref{thm:cubic-level} gives the asserted value for \(X_1\) and
+\(X_3\).  Engel, de Gaay Fortman, and
 Schreieder prove that a very general smooth complex cubic threefold does not
 admit a decomposition of the diagonal and hence is not stably rational
 \cite[Corollary~1.4]{EGFS}.  For such a threefold no finite \(m\) makes
@@ -627,14 +658,14 @@ admit a decomposition of the diagonal and hence is not stably rational
 \section{Exact tangent-section certificate}
 \label{app:slice-certificate}
 
-This appendix records the exact cover used in
-Proposition~\ref{prop:tangent-section}.  It exposes the polynomials and the
-two surviving localized branches used in the geometric nonemptiness claim.
-The public generator proves the emptiness of six branches by exact Gr\"obner
-computations.  For each branch, the public certificate also retains a
-machine-readable identity expressing a nonzero constant in the corresponding
-localized ideal.  The displayed evaluations and B\'ezout identity exclude the
-two surviving branches.
+This appendix proves that the four opens used in
+Proposition~\ref{prop:tangent-section} cover the smooth parameter space.
+If the first three products \(D_iM_i\) vanish, choosing one vanishing factor
+from each product gives eight cases.  Exact Gr\"obner computations show that
+six cases are empty.  In each of the other two, the displayed evaluations
+and B\'ezout identity show that \(D_4M_4\ne0\).  The public certificate
+retains, for each empty case, a machine-readable identity expressing a
+nonzero constant in the corresponding localized ideal.
 
 After discarding nonzero rational factors, the four evaluation determinants
 are
@@ -652,21 +683,23 @@ opens \(D_iM_i\ne0\) cover \(\Delta\ne0\).
 
 \section{Verification and scope}
 
-We compute the cocharacter saturation, type-\(I_3\) actions, Cox weights,
-determinant-one weight differences, and tangent-incidence cover using exact
-integer and rational arithmetic.  The public generator starts from the two
+Using exact integer and rational arithmetic, we compute the cocharacter
+saturation, type-\(I_3\) actions, and Cox weights; verify that the selected
+weight differences form a lattice basis; and prove that four explicit opens
+cover the smooth parameter locus.  The public generator starts from the two
 type-\(I_3\) character matrices and a transcription of the twenty Cox
 quadrics in \cite[Section~3]{TZ}.  It reconstructs the saturated rank-three lattice, the
 residual rank-two quotient, the tangent Jacobian, all four pairs
-\((D_i,M_i)\), the eight localized branches, and the B\'ezout identity above
+\((D_i,M_i)\), the eight localized cases, and the B\'ezout identity above
 with SymPy~1.14.0.  The certificate retains exact Nullstellensatz identities
-for the six empty branches; both public programs verify those identities
-directly.  The generator also derives the evaluation-kernel slice through the
-orbit-test point and renders every computation-derived matrix, block, witness,
-determinant, minor, and B\'ezout coefficient printed in the manuscript into a
-checked TeX artifact.  A second checker independently verifies the resulting
-cover, kernel slice, and quotient minors.  We check the transcription of the
-source equations, the quotient criterion, equivariant generic trivialization,
+for the six empty cases; both public programs verify those identities
+directly.  The generator also derives the linear section defined by the
+kernel of evaluation at \(x\) and renders every computation-derived matrix,
+weight-space table, parameter row, determinant, minor, and B\'ezout
+coefficient printed in the manuscript into a checked TeX artifact.  A second
+checker independently verifies the resulting cover, linear section, and
+quotient minors.  We check the transcription of the source equations, the
+quotient criterion, equivariant generic trivialization,
 incidence descent, and function-field argument in the text; the programs do
 not address them.
 
@@ -690,7 +723,23 @@ and manuscript drafting and revision. The author checked the resulting
 arguments, computations, code, and cited sources, reviewed and edited all
 AI-assisted material, and assumes responsibility for all content.
 
+\begingroup
+\footnotesize
+\emergencystretch=1em
+\raggedright
 \begin{thebibliography}{99}
+\bibitem{BCTSSD} A.~Beauville, J.-L.~Colliot-Th\'el\`ene, J.-J.~Sansuc,
+and P.~Swinnerton-Dyer,
+\emph{Vari\'et\'es stablement rationnelles non rationnelles},
+Ann. of Math. (2) 121 (1985), no.~2, 283--318,
+\href{https://doi.org/10.2307/1971174}{doi:10.2307/1971174}.
+
+\bibitem{CMR} C.~Ciliberto, M.~Mella, and F.~Russo,
+\emph{Varieties with one apparent double point},
+J. Algebraic Geom. 13 (2004), no.~3, 475--512,
+\href{https://doi.org/10.1090/S1056-3911-03-00355-2}
+{doi:10.1090/S1056-3911-03-00355-2}.
+
 \bibitem{EGFS} P.~Engel, O.~de Gaay Fortman, and S.~Schreieder,
 \emph{Matroids and the integral Hodge conjecture for abelian varieties},
 arXiv:2507.15704v3, 2026,
@@ -705,9 +754,13 @@ Publ. Math. IH\'ES 30 (1966), 55--113,
 
 \bibitem{RuddM1} T.~Rudd,
 \emph{Irrationality of cubic threefolds after one stabilization},
-version 0.15.0, Zenodo, 2026,
-\href{https://doi.org/10.5281/zenodo.22088961}
-{doi:10.5281/zenodo.22088961}.
+version 0.16.0, Zenodo, 2026,
+\href{https://doi.org/10.5281/zenodo.22132303}
+{doi:10.5281/zenodo.22132303}.
+
+\bibitem{ShepherdBarron} N.~I.~Shepherd-Barron,
+\emph{Stably rational irrational varieties},
+in The Fano Conference, Univ. Torino, Turin, 2004, 693--700.
 
 \bibitem{TZ} Yu.~Tschinkel and Zh.~Zhang,
 \emph{Universal torsors over quartic del Pezzo surfaces and stable
@@ -728,4 +781,5 @@ Math. USSR-Izv. 1 (1967), 691--696,
 \href{https://doi.org/10.1070/IM1967v001n03ABEH000580}
 {doi:10.1070/IM1967v001n03ABEH000580}.
 \end{thebibliography}
+\endgroup
 \end{document}
