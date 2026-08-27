@@ -1,5 +1,5 @@
 {
-  "content_sha256": "3b9010686820004b5624914e53f9254e274f3ff1fa3591cd9bb129fc45679156",
+  "content_sha256": "1c73b2f6bf73eddc18112955de1fb63a26c4b0a2c5309b5944dde236824963fa",
   "excluded_path_count": 0,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -75,44 +75,44 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "a03b17bced3e61cb837e02d019af9b8995dba9b7690cdf9e977abfaf255be5de",
+      "sha256": "cfa4fcaf83ede5617beb2d8dff01ae48ba6ae316f5559bb84c35846541046183",
       "source_blob": null
     },
     {
-      "bytes": 6406,
+      "bytes": 6439,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "8e931917e48563c9b61fb73b6827d2f81ddab6f870c5cd0d45feee130f065049",
-      "source_blob": "c50d439923288dc2986c286e7b388794de32637a"
+      "sha256": "d9d576e9fbf954bf1972c42db71dcd773fb7f671c2aa6c2d0d83ba39033afc76",
+      "source_blob": "19d42740b80b5c9c5c8515e6cfcac35534b6c33d"
     },
     {
-      "bytes": 3904,
+      "bytes": 4243,
       "mode": "100644",
       "path": "REVIEWER_GUIDE.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "9d58d0af9204326e20e543735dbe070d256413b4efb96e9a467ec8af319d491e",
-      "source_blob": "2fe402813ddbb7f470474c6b2e0a0a7e76e2b5e4"
+      "sha256": "23daf7178c0a4c61b7b992d1a8d23daee3821879d7f073dcfc29705433678a40",
+      "source_blob": "f8e068969a5b558777e84dec9970926b0366dcfb"
     },
     {
-      "bytes": 124682,
+      "bytes": 130405,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "773324fafccb2167b0d93054a98ea857637a36cd276591218e5dc03bbeb5374b",
-      "source_blob": "5108e86b1a34265c4a6e0ab21c0142d5606e24ae"
+      "sha256": "2142895222b3cc2738188c309406b32e2afb005dbb6e549b3025f1c2e6185221",
+      "source_blob": "7b1ba719c2bdec92d06cfde06db9fa43675ca9eb"
     },
     {
-      "bytes": 36025,
+      "bytes": 39040,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "4d9fc43a46d77757fdffd1da402d142c450e24aa5089d3a8576c8a12f08f1893",
-      "source_blob": "b44dd831fd3d0c622c339f68234f27f6379c93ef"
+      "sha256": "77c5e8dd99e4cd43d861df0ce3ef8307579333ecc5f3662a3400e3b8a4b2f73b",
+      "source_blob": "6935060e29582119f74fee96777cd9463e5cf666"
     },
     {
       "bytes": 567,
@@ -151,13 +151,13 @@
       "source_blob": "f58ed94a7a9110d967ef268b3009cd0732933d78"
     },
     {
-      "bytes": 6670,
+      "bytes": 6630,
       "mode": "100644",
       "path": "verification/check_metadata.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "d6bfa8a63275780b6b2f892e9b6382eb4e5082f47aaf4b61c2344992cc4ae46b",
-      "source_blob": "e92950386b38017fb8508e7840a0499b48919c99"
+      "sha256": "918c2467155814c11a18eec884bf2a32fa72a3ba7edecc09b38a49a2f9c9ff9d",
+      "source_blob": "5c0d9f341ac861b0a96c6f489557248b867f7125"
     },
     {
       "bytes": 8088,
@@ -169,13 +169,13 @@
       "source_blob": "e8e0473fbbce9b92771afb3fd06cd3133704abba"
     },
     {
-      "bytes": 5467,
+      "bytes": 5538,
       "mode": "100644",
       "path": "verification/claim-map.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "5f62d72bd132905d73fcf34c7d134643269b99e30f6ae8be742eb30c7bc800fd",
-      "source_blob": "ec79b1a574db6ebc3dcbaf5f42f082acb6572460"
+      "sha256": "de155704cf08af535be78d8649146e9120cf412a23bd169e7cdb455208437973",
+      "source_blob": "4f536f0e0aad0efa4fec22b8fd89a19819e87a20"
     },
     {
       "bytes": 26936,
@@ -214,13 +214,13 @@
       "source_blob": "1a96f6bb8616b552e05d3576a9856c5891c4d8dd"
     },
     {
-      "bytes": 6208,
+      "bytes": 7254,
       "mode": "100644",
       "path": "verification/imported-sources.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "339a5ad70cd66043d6c29763a6bf90104b59a61c75e8fad3f72d3f5a91119ba9",
-      "source_blob": "67bb7d014370c8418b2266dff075841265dc19d8"
+      "sha256": "0fd096df863915d14ec71dedb3488b16cbd236af7ee99033b745bb5bb4be3a63",
+      "source_blob": "85da1fef7c6a127a16aa26c1283381c87e1b82c9"
     },
     {
       "bytes": 5138,

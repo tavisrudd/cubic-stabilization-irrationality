@@ -33,14 +33,17 @@ calculation and the evidence boundary.
    section.
 3. **Why does the criterion apply to quartic del Pezzo surfaces?** Section 3
    imports the projective Cox model and the descended form of its birational
-   tangent projection from Tschinkel--Zhang; the general tangent-projection
+   tangent projection from Tschinkel--Zhang.  The smooth tangent-projection
    theorem for varieties with one apparent double point is due to
-   Ciliberto--Mella--Russo.  The section constructs a Galois-stable saturated
-   rank-three subtorus, four selected weight spaces whose weight differences
-   form a basis, and the complementary subspace `B`.  Proposition
-   `prop:tangent-section`
-   constructs the required tangent linear section and explains its descent
-   for types `I0`--`I3`.
+   Ciliberto--Mella--Russo; the possibly singular Cox model uses the stronger
+   form in Tschinkel--Zhang, Theorem 2.4.  The section constructs a
+   Galois-stable saturated rank-three subtorus, four selected weight spaces
+   whose weight differences form a basis, and the complementary subspace `B`.
+   Proposition `prop:tangent-section` constructs the required tangent linear section and
+   explains its descent for types `I0`--`I3`.  To make the openness condition
+   uniform in the tangent point `p`, the proof packages the tangent projections
+   into a rational map over the `p`-parameter space and uses its relative
+   isomorphism locus before applying density of rational points.
 4. **What does the computation prove?** The four rows in the parameter table
    give evaluation determinants `D_i` and smoothness minors `M_i`.  Appendix A
    proves that the opens `D_i M_i != 0` cover the smooth parameter locus
