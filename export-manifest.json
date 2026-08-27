@@ -1,5 +1,5 @@
 {
-  "content_sha256": "de59ba1d5fbb5cf5939ea4d96a1b151aaf21c9fce459131fcb39e204ba3fcd4f",
+  "content_sha256": "c6e773f83fbf7660c5c91a08acd045e7efcee72a3ff0db9aaffed3334baf288c",
   "excluded_path_count": 0,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -75,7 +75,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "44467b7e8a8540a84930eeffc762a8854435d1aac4ef1f2aa923f80b4886c636",
+      "sha256": "f771e67f91de55f2c6f6c53091c426cd0b2943ecd048ff2dfd9482cb1255b1dd",
       "source_blob": null
     },
     {
@@ -97,22 +97,22 @@
       "source_blob": "f8e068969a5b558777e84dec9970926b0366dcfb"
     },
     {
-      "bytes": 130500,
+      "bytes": 131506,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "a90223898c0f8f929187e6d9ecc22424506e21c94660e1e0389b53f9b6cd46cd",
-      "source_blob": "9ec4bdd6bdf41937da32bd49079181e4bd01f8ae"
+      "sha256": "f0e7c845585c15c4130883de86eef0759983264d3c1004c040b8a00319b55dcb",
+      "source_blob": "3353cd15efd15ce38e492d62f67a879c2397d73a"
     },
     {
-      "bytes": 39113,
+      "bytes": 39763,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "099134422f459f4412e945445abee3c496fc5ffa2e6ced789f864284d95934c9",
-      "source_blob": "bfb698cef465382f826cb482b9884905ab1adeca"
+      "sha256": "d571296ed1399ec78848d85e1ad3060772f58eed6acfd1e67ea2722e7ff1c388",
+      "source_blob": "15b24855a8d1c10f83f776d4779088b538c5bf1f"
     },
     {
       "bytes": 567,
@@ -151,13 +151,13 @@
       "source_blob": "f58ed94a7a9110d967ef268b3009cd0732933d78"
     },
     {
-      "bytes": 6630,
+      "bytes": 6583,
       "mode": "100644",
       "path": "verification/check_metadata.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "918c2467155814c11a18eec884bf2a32fa72a3ba7edecc09b38a49a2f9c9ff9d",
-      "source_blob": "5c0d9f341ac861b0a96c6f489557248b867f7125"
+      "sha256": "9ee7517b0ddd1d1d5f51b771d847b37b88f95ad71000b4965bebcccf5a97f355",
+      "source_blob": "53b851a97acb16d0c8904a414294d592287db87c"
     },
     {
       "bytes": 8088,
@@ -174,8 +174,8 @@
       "path": "verification/claim-map.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "de155704cf08af535be78d8649146e9120cf412a23bd169e7cdb455208437973",
-      "source_blob": "4f536f0e0aad0efa4fec22b8fd89a19819e87a20"
+      "sha256": "3cd5bcf60f62efe1d8ff8c611af7d216242ffdcaf0dca114e2c84b477e5623ba",
+      "source_blob": "bdba2e0baa9d7eb1695285099496100e56c4240d"
     },
     {
       "bytes": 26936,
