@@ -1,5 +1,5 @@
 {
-  "content_sha256": "835584dbe1b4c386a2575c71248fdbb9fb0aa8dd2a9055a58ca99206a69f7e58",
+  "content_sha256": "b6e1e1c4caf16347d889d313cf6879e08e05a8c1f1ada9b846da7c2eabcec848",
   "excluded_path_count": 0,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -31,7 +31,7 @@
       "source_blob": "48fe1688b86d4e1feef1d929170e74cc8adff356"
     },
     {
-      "bytes": 1361,
+      "bytes": 1487,
       "mode": "100644",
       "path": "Makefile",
       "rewrites": [
@@ -61,58 +61,58 @@
         },
         {
           "expected_count": 1,
-          "new": "manuscript: $(SOURCE) formal-annotations.tex verification/slice-cover-values.tex\n",
-          "old": "manuscript: $(SOURCE) formal-annotations.tex verification/slice-cover-values.tex\n\t$(LINT_PYTHON) ../scripts/lint_tex_spacing.py $(SOURCE)\n",
+          "new": "manuscript: $(SOURCE) formal-annotations.tex verification/slice-cover-values.tex verification/rank-four-values.tex\n",
+          "old": "manuscript: $(SOURCE) formal-annotations.tex verification/slice-cover-values.tex verification/rank-four-values.tex\n\t$(LINT_PYTHON) ../scripts/lint_tex_spacing.py $(SOURCE)\n",
           "reason": "the monorepo-wide TeX lint helper is outside the standalone repository boundary"
         }
       ],
       "role": "support",
-      "sha256": "5b06093e4efc3ae98af21e01f060e2bb4f7d951fbc2605d7359985fd33798308",
-      "source_blob": "8d2857c689605fb5b2f48ed424bc49704b16158b"
+      "sha256": "5d7100ccca30e743170df017ecd309ad5dfe6ad388316436ca952487b00cb805",
+      "source_blob": "f0dd3c1d79c268186bbdc548418ab8364fde2f5d"
     },
     {
       "bytes": 519,
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "c55a9eb9aefb5eb84d1ae3d4bff732ca9c2a685f30c7d03369f9122eed3e0139",
+      "sha256": "334c46307a2a231151da6cc6fd88357774bd63d016a16b7147c3c5dd1fe63faf",
       "source_blob": null
     },
     {
-      "bytes": 7081,
+      "bytes": 7666,
       "mode": "100644",
       "path": "README.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "083356edc0dee3149b1c4e39faee422c05c068851286836ddf4c175a4d445397",
-      "source_blob": "442cc8cf94057f6785588deef4841158733012d8"
+      "sha256": "efc4a7cfc00089b8b887c9cfdbc2eb191cdad2a88b8eab562723e7af5b0fc36a",
+      "source_blob": "81b4ab804b6aef363071c13435a5bc3c8b32a0d8"
     },
     {
-      "bytes": 4617,
+      "bytes": 5042,
       "mode": "100644",
       "path": "REVIEWER_GUIDE.md",
       "rewrites": [],
       "role": "support",
-      "sha256": "ae8faf2db1ce4feed770a1c152437df9bc57770bc76929719c688644f2881652",
-      "source_blob": "905227cf370d674b2caf09e004b66f1086f6d042"
+      "sha256": "78d8247c93d63abe95df859b77cd146e8bbc515564001584bcff58c267d7de70",
+      "source_blob": "2b441eb4c9f242b0f3665b38d4b3d6e0d0a2a4d1"
     },
     {
-      "bytes": 139960,
+      "bytes": 145165,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "f0a3c47a251ce3fcb8588bfa7978404929afa0a5e91c1a5017f870edd80a182b",
-      "source_blob": "56658e2bd23ccb4c2b1b90092661ef2eadd706fa"
+      "sha256": "976799bdd49ce9195fe96e63cf8893e1d41e5f4122d63f29a8bb3631cb405fe0",
+      "source_blob": "c7037369bdf7b029bc95e17406b5c4329effcaa7"
     },
     {
-      "bytes": 45074,
+      "bytes": 48875,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "4a022e847e3d45db0e2dbbc0950cdfc8b7839cd3d2a55981288d4162cfd66754",
-      "source_blob": "75a9451bc9a8dd7252ac06069b36c2ddfa5746ca"
+      "sha256": "25aaf91550374dcc9483f1b9b4242b961a5b469998913c7642d59abb2a90bf34",
+      "source_blob": "62ca0fddacaae6a120171e3c3df25eb00228e991"
     },
     {
       "bytes": 567,
@@ -151,13 +151,22 @@
       "source_blob": "f58ed94a7a9110d967ef268b3009cd0732933d78"
     },
     {
-      "bytes": 6583,
+      "bytes": 6632,
       "mode": "100644",
       "path": "verification/check_metadata.py",
       "rewrites": [],
       "role": "verification",
-      "sha256": "9ee7517b0ddd1d1d5f51b771d847b37b88f95ad71000b4965bebcccf5a97f355",
-      "source_blob": "53b851a97acb16d0c8904a414294d592287db87c"
+      "sha256": "60e2c8e832f9f5277ed0c6a31823e2d6c58a775dc84ca6fa1317cb876141ae9c",
+      "source_blob": "221295aed48ec394cd756d0b9b724f51cabb1513"
+    },
+    {
+      "bytes": 6554,
+      "mode": "100644",
+      "path": "verification/check_rank_four.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "96c4b198fbe05a8581aa32d0bb0f45784411ebd47b9914f0ae02b49b23c13d53",
+      "source_blob": "20bb20bf8dc4e666084f2606248250a79a6a8aee"
     },
     {
       "bytes": 8088,
@@ -169,13 +178,22 @@
       "source_blob": "e8e0473fbbce9b92771afb3fd06cd3133704abba"
     },
     {
-      "bytes": 8627,
+      "bytes": 9476,
       "mode": "100644",
       "path": "verification/claim-map.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "3da2fc0ef0ce4e340103ed4892e58ef8a1fcbc41f04ea4ec0b0332ca33a3e003",
-      "source_blob": "d64b68515d7d958f2a96ec1367badbb9d9be0cb0"
+      "sha256": "6124b450296e68162fbceda968f733506517f4a32239ede88a6f10b2afc35502",
+      "source_blob": "1811ee0d74f4cb401868433b8f46aa6e6bc1eb7c"
+    },
+    {
+      "bytes": 6345,
+      "mode": "100644",
+      "path": "verification/derive_rank_four.py",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "3e5c104746118b3ac1bcfb4c5028ad7855a0982f9c2d8c2b2144c76530a11a04",
+      "source_blob": "64d56f82de821b82524c79d478d134a7761e79b6"
     },
     {
       "bytes": 26936,
@@ -187,13 +205,13 @@
       "source_blob": "647b96c11b3bada1dfa56068509437012c780655"
     },
     {
-      "bytes": 1099,
+      "bytes": 1677,
       "mode": "100644",
       "path": "verification/evidence.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "da21c6ca3a4b81f69f8f0897177a8c9a4145fc63b922b1b002eb09f658ad1a46",
-      "source_blob": "0f23da8cce4e1ad2bc96936de5427d8d7ef01e93"
+      "sha256": "c9258207effa06c0537fa720cbb5e60ff3fc91a3784b6ba229221b5cdbde0ef5",
+      "source_blob": "aeea6c37c3ca869dc8470f70c407f05fe77cd44e"
     },
     {
       "bytes": 3821,
@@ -221,6 +239,42 @@
       "role": "verification",
       "sha256": "be0ee097371a261950c2290a7d38afd14057a80ff1a864f9ec6a5ec6054cedc3",
       "source_blob": "5b4231441ef45d2c6f1d9d286a1d9218ff2b3576"
+    },
+    {
+      "bytes": 596,
+      "mode": "100644",
+      "path": "verification/rank-four-SHA256SUMS",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "b8530c0c6df005585fc82d27f1c6ef104d0edcfa7ee79dc9b6bcb5baee47b848",
+      "source_blob": "fbad287a20d7a07340b4667bec24d7dfcf295263"
+    },
+    {
+      "bytes": 6171,
+      "mode": "100644",
+      "path": "verification/rank-four-certificate.json",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "0de172f6afe6780e56250f42b460df092ffe71c3476556358455f1bdf37da90d",
+      "source_blob": "31d5ddfa90c60c5a3e2f6b3e8174b35666b3d3a9"
+    },
+    {
+      "bytes": 233,
+      "mode": "100644",
+      "path": "verification/rank-four-values.tex",
+      "rewrites": [],
+      "role": "manuscript-source",
+      "sha256": "7c9b07ef7ec736f166fa28ce0f4d3f639eb15727f23e0a159b33c27a9c999c91",
+      "source_blob": "643747911bd6030ccfa82c57528cfd585b4cdddd"
+    },
+    {
+      "bytes": 3463,
+      "mode": "100644",
+      "path": "verification/rank-four.md",
+      "rewrites": [],
+      "role": "verification",
+      "sha256": "b56c6a9693dfa6fd427c6fff6e49915bfc79325f709ab31b10e715a697dfa01c",
+      "source_blob": "f33f7ac94e8c38e868ae07f298907bff84539713"
     },
     {
       "bytes": 5138,
