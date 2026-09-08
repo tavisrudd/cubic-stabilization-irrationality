@@ -1,5 +1,5 @@
 {
-  "content_sha256": "5168925b2bb279df681371cdfa2a9bb79baddaf4c6ffb8810303f38e30d8d33b",
+  "content_sha256": "b9dc2db65e6da75167d7a98e2118d21e4c56114cf91eed83820d5b2882c9c073",
   "excluded_path_count": 0,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -75,7 +75,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "5388276b38c94db52ebca92078b2eef9a66869901270ce19aa85bb67dda77091",
+      "sha256": "f57bc679f2d3523110699d7598c18759f29d711758baecf64444b284284892ed",
       "source_blob": null
     },
     {
@@ -97,22 +97,22 @@
       "source_blob": "288f5f094ba4c7e2d772b79a0115ea6f5a7f20a5"
     },
     {
-      "bytes": 175769,
+      "bytes": 175989,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "647a2b816ee1fdc1af5dde587a538d2ab93dcd3ff9b5192e469997bbe22f2dda",
-      "source_blob": "e25922af1d792fc19d69c99683e316cfbf96bb7a"
+      "sha256": "88d6288cb2b69a6a4a1eadece407dc06f25c11263fcdcdcc333b812dc92cf043",
+      "source_blob": "0ccdfef4f4e6af86aab2f993f405f5e89b490454"
     },
     {
-      "bytes": 65517,
+      "bytes": 65775,
       "mode": "100644",
       "path": "cubic_stabilization_irrationality.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "8ed36b23e9d5416a7ff40c452d572974dc9c5637d45c8a899cd4bfa703156d7c",
-      "source_blob": "d422cdf38f34cb7ec24af9160dbd3e87b7686422"
+      "sha256": "e75fa859b59afeab6b7cdf82a07745017f06bef56ad4c58db79f275f8b9ffcc5",
+      "source_blob": "de335564a03bb524e7bfbbfd0f01c9557dd7df5a"
     },
     {
       "bytes": 567,
@@ -232,13 +232,13 @@
       "source_blob": "1a96f6bb8616b552e05d3576a9856c5891c4d8dd"
     },
     {
-      "bytes": 11687,
+      "bytes": 12034,
       "mode": "100644",
       "path": "verification/imported-sources.json",
       "rewrites": [],
       "role": "verification",
-      "sha256": "970b9741642bcc18f13e20038e169dc26701b9788a334c0fb518199ba1be2322",
-      "source_blob": "da9371e9aef5d41635d32099a4ae8f36425cbbd6"
+      "sha256": "bda845e2f7e42c79b04abef77f2bb22dc083ba492a31ba0884742bd0c206ab78",
+      "source_blob": "b5c652a47888cc44520419ec1009a2e9e8b2d2f2"
     },
     {
       "bytes": 596,
